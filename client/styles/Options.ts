@@ -1,7 +1,7 @@
-import { css } from 'styled-components';
+import { css } from "styled-components";
 
 // theme
-import { colors } from './theme';
+import { colors } from "./theme";
 
 export default css`
   /* button options */
