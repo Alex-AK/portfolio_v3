@@ -4,8 +4,10 @@
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet",
+    "pretest": "yarn lint"
   },
   "dependencies": {
     "date-fns": "^2.15.0",
