@@ -25,7 +25,12 @@ const Writing = ({ posts }: Props) => {
 
         <section>
           {posts.map(({ id, title }) => (
-            <Link key={id} href="/writing/[id]" as={`/writing/${id}`}>
+            <Link
+              key={id}
+              href="/writing/[id]"
+              as={`/writing/${id}`}
+              className="no-styles"
+            >
               <h4>{title}</h4>
             </Link>
           ))}

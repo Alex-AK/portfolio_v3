@@ -143,6 +143,15 @@ export default css`
     }
   }
 
+  .no-styles {
+    padding: 0;
+    border-bottom: 0;
+
+    :hover {
+      background: transparent;
+    }
+  }
+
   input,
   textarea {
     line-height: 1.5;

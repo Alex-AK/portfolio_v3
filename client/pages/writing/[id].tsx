@@ -19,7 +19,7 @@ const Post = ({ postData }: Props) => {
   const { title, date, contentHtml } = postData;
 
   return (
-    <Styles>
+    <Styles id="page">
       <Head>
         <title>{title}</title>
       </Head>

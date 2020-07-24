@@ -7,7 +7,11 @@ import Link from "components/General/Link";
 const Footer = () => {
   return (
     <Styles id="footer-navigation">
-      <Link href="https://github.com/alex-ak" openInNewTab>
+      <Link
+        href="https://github.com/alex-ak"
+        className="no-styles"
+        openInNewTab
+      >
         <img src="icons/github-icon.png" alt="github icon" />
       </Link>
 
@@ -15,7 +19,11 @@ const Footer = () => {
         <img src="icons/email-icon.png" alt="email icon" />
       </a>
 
-      <Link href="https://linkedin.com/in/alex-ak" openInNewTab>
+      <Link
+        href="https://linkedin.com/in/alex-ak"
+        className="no-styles"
+        openInNewTab
+      >
         <img src="icons/linkedin-icon.png" alt="linkedIn icon" />
       </Link>
     </Styles>
