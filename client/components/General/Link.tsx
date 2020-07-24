@@ -21,7 +21,7 @@ const Link = ({
     return (
       <a
         data-testid={testId}
-        className={className}
+        className={`${className} hyperlink`}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -32,7 +32,7 @@ const Link = ({
 
   return (
     <NextLink href={href} as={as}>
-      <a data-testid={testId} className={className}>
+      <a data-testid={testId} className={`${className} hyperlink`}>
         {children}
       </a>
     </NextLink>

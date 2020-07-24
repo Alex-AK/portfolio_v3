@@ -1,16 +1,22 @@
 import Head from "next/head";
+import styled from "styled-components";
 
 interface Props {} // eslint-disable-line
 
-const projects = ({}: Props) => {
+const Project = ({}: Props) => {
   return (
     <>
       <Head>
-        <title>Projects | Alex King</title>
+        <title>Project | Alex King</title>
       </Head>
-      <h1>Projects</h1>
+
+      <Styles id="page">
+        <h1>Project</h1>
+      </Styles>
     </>
   );
 };
 
-export default projects;
+export default Project;
+
+const Styles = styled.main``;

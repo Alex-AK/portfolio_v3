@@ -1,16 +1,22 @@
 import Head from "next/head";
+import styled from "styled-components";
 
 interface Props {} // eslint-disable-line
 
-const now = ({}: Props) => {
+const Now = ({}: Props) => {
   return (
     <>
       <Head>
         <title>Now | Alex King</title>
       </Head>
-      <h1>Now</h1>
+
+      <Styles id="page">
+        <h1>Now</h1>
+      </Styles>
     </>
   );
 };
 
-export default now;
+export default Now;
+
+const Styles = styled.main``;

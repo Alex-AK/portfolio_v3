@@ -30,6 +30,9 @@ export const colors = {
   paleGrey: "#EBEBEB",
   white: "#ffffff",
 
+  // animations
+  linkHover: "#f4e4d4",
+
   // box shadow
   boxShadow: "0 2px 4px 0 rgba(216, 216, 216, 0.5)",
 };

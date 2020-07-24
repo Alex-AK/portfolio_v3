@@ -23,9 +23,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <>
         <Navigation />
 
-        <div id="page">
-          <Component {...pageProps} />
-        </div>
+        <Component {...pageProps} />
 
         <Footer />
       </>
@@ -37,19 +35,13 @@ export default App;
 
 const Styles = styled.div`
   display: grid;
-
-  grid-template-areas:
-    "header-navigation"
-    "page"
-    "footer-navigation";
-
-  grid-template-rows: 1fr auto;
-  grid-template-columns: 100%;
+  grid-template-rows: 1fr auto 1fr;
 
   height: 100vh;
   max-width: 1200px;
+  margin: 0 2%;
 
   #page {
-    height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
   }
 `;
