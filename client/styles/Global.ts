@@ -153,8 +153,7 @@ export default css`
     padding: 0;
     border: 0;
 
-    :hover,
-    :focus {
+    :hover {
       background: transparent;
     }
   }

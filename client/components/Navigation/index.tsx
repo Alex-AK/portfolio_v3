@@ -16,18 +16,10 @@ const MainNavigation = ({}: Props) => {
       <div className="menu" role="menu">
         {menuItems.map((item) => {
           if (item === "home") {
-            return (
-              <Link key={item} href="/">
-                {item}
-              </Link>
-            );
+            return <Link key={item} href="/" text={item} />;
           }
 
-          return (
-            <Link key={item} href={`/${item}`}>
-              {item}
-            </Link>
-          );
+          return <Link key={item} href={`/${item}`} text={item} />;
         })}
       </div>
     </Styles>

@@ -14,9 +14,12 @@ const Tags = ({ tags }: Props) => {
   return (
     <Styles>
       {tags.split(", ").map((tag) => (
-        <Link key={tag} href={`/writing?filter=${tag}`} className="no-styles">
-          {tag}
-        </Link>
+        <Link
+          key={tag}
+          href={`/writing?filter=${tag}`}
+          text={tag}
+          className="no-styles"
+        />
       ))}
     </Styles>
   );
@@ -28,14 +31,14 @@ const Styles = styled.div`
   margin-bottom: 20px;
 
   a {
-    background: ${colors.paleGrey};
+    background: ${colors.lightYellow};
     margin-right: 5px;
     padding: 6px 15px 4px 15px;
     border-radius: 6px;
     font-size: 1.4rem;
 
     :hover {
-      background: ${colors.yellowHover};
+      background: ${colors.yellow};
     }
   }
 `;
