@@ -42,6 +42,6 @@ const Styles = styled.div`
   margin: 0 2%;
 
   #page {
-    min-height: calc(100vh - 110px);
+    min-height: calc(100vh - 120px);
   }
 `;
