@@ -13,7 +13,7 @@ const MainNavigation = ({}: Props) => {
 
   return (
     <Styles id="header-navigation">
-      <div className="menu">
+      <div className="menu" role="menu">
         {menuItems.map((item) => {
           if (item === "home") {
             return (

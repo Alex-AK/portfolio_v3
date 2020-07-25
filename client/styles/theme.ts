@@ -1,10 +1,8 @@
 export const colors = {
   // brand colors
-  purple: "#5724F5",
-  yellow: "#FBCD4B",
-  seaFoam: "#C2E7DA",
-  green: "#42A854",
-  midnightBlue: "#191B41",
+
+  lightYellow: "#FFCC31",
+  yellow: "#FDC628",
 
   // main colors
   background: "#FAFAFC",
@@ -29,9 +27,6 @@ export const colors = {
   lightGrey: "#B2B2B2",
   paleGrey: "#EBEBEB",
   white: "#ffffff",
-
-  // animations
-  linkHover: "#f4e4d4",
 
   // box shadow
   boxShadow: "0 2px 4px 0 rgba(216, 216, 216, 0.5)",

@@ -17,7 +17,7 @@ export default css`
   body {
     scroll-behavior: smooth;
     font-family: "Helvetica", sans-serif;
-    background: ${colors.white};
+    background: ${colors.background};
     color: ${colors.darkGrey};
 
     max-width: 1100px;
@@ -54,7 +54,7 @@ export default css`
     margin-bottom: 15px;
 
     @media (max-width: 800px) {
-      font-size: 2.4rem;
+      font-size: 2.6rem;
     }
   }
 
@@ -65,7 +65,7 @@ export default css`
     line-height: 1.8;
 
     @media (max-width: 800px) {
-      font-size: 2.2rem;
+      font-size: 2rem;
     }
   }
 
@@ -75,7 +75,7 @@ export default css`
     line-height: 1.8;
 
     @media (max-width: 800px) {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
   }
 
@@ -84,6 +84,10 @@ export default css`
     letter-spacing: 1px;
     padding-bottom: 5px;
     line-height: 1.6;
+
+    @media (max-width: 800px) {
+      font-size: 1.4rem;
+    }
   }
 
   h5 {
@@ -135,10 +139,11 @@ export default css`
     text-decoration: none;
     color: ${colors.darkGrey};
     padding: 3px 2px 0px 2px;
-    border-bottom: 2px solid ${colors.linkHover};
+    border-bottom: 2px solid ${colors.lightYellow};
 
-    :hover {
-      background: ${colors.linkHover};
+    :hover,
+    :focus {
+      background: ${colors.yellow};
       transition: 0.4s;
       cursor: pointer;
     }
@@ -146,9 +151,10 @@ export default css`
 
   .no-styles {
     padding: 0;
-    border-bottom: 0;
+    border: 0;
 
-    :hover {
+    :hover,
+    :focus {
       background: transparent;
     }
   }
