@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import remark from "remark";
 import html from "remark-html";
+import { PostDataProps } from "types";
 
 const postsDirectory = path.join(process.cwd(), "content/posts");
 const pageDirectory = path.join(process.cwd(), "content/pages");
@@ -28,7 +29,7 @@ export const getSortedPostsData = () => {
     };
   });
   // Sort posts by date
-  return allPostsData.sort((a, b) => {
+  return allPostsData.sort((a: PostDataProps, b: PostDataProps) => {
     if (a.date < b.date) {
       return 1;
     } else {
@@ -49,7 +50,7 @@ export const getAllPostIds = () => {
   });
 };
 
-export const getPostData = async (id) => {
+export const getPostData = async (id: number) => {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
@@ -70,7 +71,7 @@ export const getPostData = async (id) => {
   };
 };
 
-export const getPageData = async (page) => {
+export const getPageData = async (page: string) => {
   const fullPath = path.join(pageDirectory, `${page}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
