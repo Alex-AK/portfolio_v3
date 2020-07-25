@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 // components
-import Button from "components/General/Button";
 import Link from "components/General/Link";
 
 interface Props {} // eslint-disable-line
+
+const menuItems = ["home", "projects", "writing", "about", "now", "contact"];
 
 const MainNavigation = ({}: Props) => {
   // hide main navigation on homepage, in favor of buttons
@@ -12,15 +13,19 @@ const MainNavigation = ({}: Props) => {
 
   return (
     <Styles id="header-navigation">
-      <Link href="/" className="no-styles">
-        <strong>AK</strong>
-      </Link>
-
       <div className="menu">
-        {["projects", "writing", "about", "now", "contact"].map((nav) => {
+        {menuItems.map((item) => {
+          if (item === "home") {
+            return (
+              <Link key={item} href="/">
+                {item}
+              </Link>
+            );
+          }
+
           return (
-            <Link key={nav} href={`/${nav}`}>
-              {nav}
+            <Link key={item} href={`/${item}`}>
+              {item}
             </Link>
           );
         })}
@@ -34,14 +39,12 @@ export default MainNavigation;
 const Styles = styled.nav`
   height: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 
-  strong {
-    font-size: 2.4rem;
-  }
-
-  a {
-    margin-left: 50px;
+  .menu {
+    a {
+      margin-left: 50px;
+    }
   }
 `;
