@@ -46,5 +46,5 @@ Link.defaultProps = {
   as: undefined,
   testId: undefined,
   openInNewTab: false,
-  className: undefined,
+  className: "",
 };

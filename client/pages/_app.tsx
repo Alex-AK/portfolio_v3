@@ -37,7 +37,7 @@ const Styles = styled.div`
   display: grid;
   grid-template-rows: 1fr auto 1fr;
 
-  height: 100vh;
+  min-height: 100vh;
   max-width: 1200px;
   margin: 0 2%;
 

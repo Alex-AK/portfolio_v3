@@ -3,16 +3,16 @@ import styled from "styled-components";
 
 // components
 import Button from "components/General/Button";
-// import Link from "components/General/Link";
 
 // util
 import { getPageData } from "util/fetchMarkdown";
 
 // types
 import { GetStaticProps } from "next";
+import { PageDataProps } from "types";
 
 interface Props {
-  pageData: { id: string; title: string; contentHtml: string };
+  pageData: PageDataProps;
 }
 
 const Home = ({ pageData }: Props) => {

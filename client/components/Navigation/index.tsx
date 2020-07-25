@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 // components
 import Button from "components/General/Button";
+import Link from "components/General/Link";
 
 interface Props {} // eslint-disable-line
 
@@ -11,12 +12,17 @@ const MainNavigation = ({}: Props) => {
 
   return (
     <Styles id="header-navigation">
-      {/* replace with logo */}
-      <Button text="home" redirect="/" />
+      <Link href="/" className="no-styles">
+        <strong>AK</strong>
+      </Link>
 
       <div className="menu">
-        {["projects", "writing", "about", "now", "contact"].map((button) => {
-          return <Button key={button} text={button} redirect={`/${button}`} />;
+        {["projects", "writing", "about", "now", "contact"].map((nav) => {
+          return (
+            <Link key={nav} href={`/${nav}`}>
+              {nav}
+            </Link>
+          );
         })}
       </div>
     </Styles>
@@ -29,10 +35,13 @@ const Styles = styled.nav`
   height: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
-  .menu {
-    button {
-      margin-left: 10px;
-    }
+  strong {
+    font-size: 2.4rem;
+  }
+
+  a {
+    margin-left: 50px;
   }
 `;

@@ -9,19 +9,27 @@ import { getSortedPostsData } from "../util/fetchMarkdown";
 
 // types
 import { GetStaticProps } from "next";
+import { PostDataProps } from "types";
 
 interface Props {
-  posts: [{ id: string; date: string; title: string }];
+  posts: [PostDataProps];
 }
 
 const Writing = ({ posts }: Props) => {
+  // const allTags = [];
+  // posts.forEach(({ tags }) => {
+  //   tags.split(", ").forEach((tag: string) => {
+  //     if (allTags.includes(tag)) allTags.push(tag);
+  //   });
+  // });
+
   return (
     <>
       <Head>
         <title>Writing | Alex King</title>
       </Head>
       <Styles id="page">
-        <h1>Posts</h1>
+        <h1>Writing</h1>
 
         <section>
           {posts.map(({ id, title }) => (
