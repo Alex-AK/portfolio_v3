@@ -34,14 +34,9 @@ const Post = ({ postData }: Props) => {
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
       </article>
 
-      <Link href={site} openInNewTab>
-        View Site
-      </Link>
-      {code && (
-        <Link href={code} openInNewTab>
-          View Code
-        </Link>
-      )}
+      {site && <Link href={site} text="View Site" openInNewTab />}
+
+      {code && <Link href={code} text="View Code" openInNewTab />}
 
       <Link href="/writing">Return to Writing</Link>
     </Styles>

@@ -3,7 +3,8 @@ import NextLink from "next/link";
 export interface Props {
   href: string;
   as?: string;
-  children: any;
+  children?: any;
+  text?: string;
   testId?: string;
   openInNewTab?: boolean;
   className?: string;
@@ -13,6 +14,7 @@ const Link = ({
   href,
   as,
   children,
+  text,
   testId,
   openInNewTab,
   className,
@@ -26,7 +28,7 @@ const Link = ({
         target="_blank"
         rel="noopener noreferrer"
       >
-        {children}
+        {children || text}
       </a>
     );
   }
@@ -34,7 +36,7 @@ const Link = ({
   return (
     <NextLink href={href} as={as}>
       <a data-testid={testId} className={`${className} hyperlink`}>
-        {children}
+        {children || text}
       </a>
     </NextLink>
   );
@@ -46,5 +48,7 @@ Link.defaultProps = {
   as: undefined,
   testId: undefined,
   openInNewTab: false,
+  children: undefined,
+  text: "",
   className: "",
 };
