@@ -6,8 +6,8 @@ import { colors } from "./theme";
 export default css`
   /* button options */
   .invert-button {
-    color: ${colors.seaFoam};
-    border: solid 1px ${colors.seaFoam};
+    color: ${colors.yellow};
+    border: solid 1px ${colors.black};
     background: ${colors.white};
 
     :hover,

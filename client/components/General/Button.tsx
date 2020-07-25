@@ -70,7 +70,7 @@ const Styles = styled.button`
   padding-top: 3px;
 
   background: ${colors.lightYellow};
-  border: solid 1px ${colors.paleGrey};
+  border: solid 1px ${colors.lightYellow};
   border-radius: 4px;
 
   :hover {
