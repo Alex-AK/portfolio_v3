@@ -3,60 +3,70 @@ import styled from "styled-components";
 
 // components
 import Button from "components/General/Button";
-import Link from "components/General/Link";
 
-const Home = () => {
+// util
+import { getPageData } from "util/fetchMarkdown";
+
+// types
+import { GetStaticProps } from "next";
+import { PageDataProps } from "types";
+
+interface Props {
+  pageData: PageDataProps;
+}
+
+const Home = ({ pageData }: Props) => {
+  const { title, contentHtml } = pageData;
+
   return (
-    <div className="container">
+    <>
       <Head>
-        <title>Alex King | Software Developer</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Styles>
-        <h1>Alex King | Software Developer</h1>
-        <h4>
-          Currently developing and solving problems for a{" "}
-          <a
-            href="https://brainsquall.co"
-            className="hyperlink"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Seattle startup.
-          </a>{" "}
-          Take a look at my
-          <Link href="/projects" className="hyperlink">
-            projects
-          </Link>
-          or{" "}
-          <Link href="/writing" className="hyperlink">
-            writing.
-          </Link>{" "}
-          If youd like to work with me
-          <Link href="/contact" className="hyperlink">
-            reach out.
-          </Link>
-        </h4>
+      <Styles id="page">
+        <div>
+          <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
-        <h4 className="extra-top-margin">
-          <Link href="/contact" className="hyperlink no-left-margin">
-            Looking for mentorship?
-          </Link>
-        </h4>
-
-        {["projects", "writing", "about", "now", "contact"].map((button) => {
-          return <Button key={button} text={button} redirect={`/${button}`} />;
-        })}
+          {["projects", "writing", "about", "now", "contact"].map((button) => {
+            return (
+              <Button key={button} text={button} redirect={`/${button}`} />
+            );
+          })}
+        </div>
       </Styles>
-    </div>
+    </>
   );
 };
 
+export default Home;
+
 const Styles = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    margin-right: 10%;
+  }
+
+  h1 span {
+    font-weight: 300;
+    font-size: 2.8rem;
+  }
+
   button {
-    margin: 10px 10px 0 0;
+    margin: 0 10px 10px 0;
+  }
+
+  h4:nth-child(3) {
+    margin: 15px 0;
   }
 `;
 
-export default Home;
+export const getStaticProps: GetStaticProps = async () => {
+  const pageData = await getPageData("home");
+
+  return { props: { pageData } };
+};

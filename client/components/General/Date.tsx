@@ -1,4 +1,4 @@
-import { parseISO, format } from 'date-fns';
+import { parseISO, format } from "date-fns";
 
 interface Props {
   date: string;
@@ -7,7 +7,7 @@ interface Props {
 const Date = ({ date }: Props) => {
   const dateISO = parseISO(date);
 
-  return <time dateTime={date}>{format(dateISO, 'LLLL d, yyyy')}</time>;
+  return <time dateTime={date}>{format(dateISO, "LLLL yyyy")}</time>;
 };
 
 export default Date;

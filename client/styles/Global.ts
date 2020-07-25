@@ -47,54 +47,59 @@ export default css`
   }
 
   h1 {
-    font-size: 2.6rem;
-    font-weight: bold;
+    font-size: 3rem;
+    /* font-weight: bold; */
     letter-spacing: 1.25px;
-    line-height: 1.25;
+    line-height: 2;
     margin-bottom: 15px;
-
-    @media (max-width: 800px) {
-      font-size: 2rem;
-    }
-  }
-
-  h2 {
-    font-size: 2rem;
-    word-spacing: 3px;
-    margin-bottom: 15px;
-    line-height: 1.2;
 
     @media (max-width: 800px) {
       font-size: 2.4rem;
     }
   }
 
+  h2 {
+    font-size: 2.4rem;
+    word-spacing: 3px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+
+    @media (max-width: 800px) {
+      font-size: 2.2rem;
+    }
+  }
+
   h3 {
     font-size: 1.8rem;
     padding-bottom: 10px;
-    line-height: 3rem;
+    line-height: 1.8;
 
     @media (max-width: 800px) {
       font-size: 1.8rem;
     }
   }
 
-  /* h4 used for footer */
   h4 {
     font-size: 1.6rem;
     letter-spacing: 1px;
     padding-bottom: 5px;
+    line-height: 1.6;
   }
 
-  /* h5 user in nav bar */
   h5 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     letter-spacing: 1px;
+    line-height: 1.2;
   }
 
   h6 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
+    line-height: 1;
+  }
+
+  strong {
+    font-weight: 600;
   }
 
   p,
@@ -129,11 +134,22 @@ export default css`
   a {
     text-decoration: none;
     color: ${colors.darkGrey};
+    padding: 3px 2px 0px 2px;
+    border-bottom: 2px solid ${colors.linkHover};
 
     :hover {
-      color: ${colors.mediumGrey};
-      transition: 0.3s;
+      background: ${colors.linkHover};
+      transition: 0.4s;
       cursor: pointer;
+    }
+  }
+
+  .no-styles {
+    padding: 0;
+    border-bottom: 0;
+
+    :hover {
+      background: transparent;
     }
   }
 
