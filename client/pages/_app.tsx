@@ -43,9 +43,5 @@ const Styles = styled.div`
 
   #page {
     min-height: calc(100vh - 120px);
-
-    @media (max-width: 500px) {
-      min-height: calc(100vh);
-    }
   }
 `;
