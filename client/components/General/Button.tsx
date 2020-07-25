@@ -25,7 +25,7 @@ const Button = ({
   if (redirect)
     return (
       <Link href={redirect}>
-        <a tabIndex={-1}>
+        <a tabIndex={-1} className="no-styles">
           <Styles
             data-testid={testId}
             className={className}

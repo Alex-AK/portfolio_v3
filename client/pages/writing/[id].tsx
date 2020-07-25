@@ -7,7 +7,7 @@ import Link from "components/General/Link";
 import Date from "components/General/Date";
 
 // util
-import { getAllPostIds, getPostData } from "util/fetchPosts";
+import { getAllPostIds, getPostData } from "util/fetchMarkdown";
 
 // types
 import { GetStaticProps, GetStaticPaths } from "next";

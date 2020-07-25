@@ -20,6 +20,7 @@ const Link = ({
   if (openInNewTab) {
     return (
       <a
+        href={href}
         data-testid={testId}
         className={`${className} hyperlink`}
         target="_blank"

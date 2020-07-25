@@ -3,36 +3,31 @@ import styled from "styled-components";
 
 // components
 import Button from "components/General/Button";
-import Link from "components/General/Link";
+// import Link from "components/General/Link";
 
-const Home = () => {
+// util
+import { getPageData } from "util/fetchMarkdown";
+
+// types
+import { GetStaticProps } from "next";
+
+interface Props {
+  pageData: { id: string; title: string; contentHtml: string };
+}
+
+const Home = ({ pageData }: Props) => {
+  const { title, contentHtml } = pageData;
+
   return (
     <>
       <Head>
-        <title>Alex King | Software Developer</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Styles id="page">
-        <div className="content">
-          <h1>
-            Alex King <span>Software Developer</span>
-          </h1>
-          <h4>
-            I&apos;m a Seattle based software engineer with a love for coffee,
-            pleasant user experience, and intentionality. Currently developing
-            and solving problems for a{" "}
-            <Link href="https://brainsquall.co" openInNewTab>
-              Seattle startup.
-            </Link>{" "}
-            Take a look at my <Link href="/projects">projects</Link> or{" "}
-            <Link href="/writing">writing.</Link> If you&apos;d like to work
-            with me <Link href="/contact">reach out.</Link>
-          </h4>
-
-          <h4 className="extra-top-margin">
-            <Link href="/contact">Looking for mentorship?</Link>
-          </h4>
+        <div>
+          <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
           {["projects", "writing", "about", "now", "contact"].map((button) => {
             return (
@@ -44,6 +39,8 @@ const Home = () => {
     </>
   );
 };
+
+export default Home;
 
 const Styles = styled.main`
   display: flex;
@@ -57,15 +54,10 @@ const Styles = styled.main`
   h1 span {
     font-weight: 300;
     font-size: 2.8rem;
-
-    :before {
-      content: "| ";
-      font-size: 2.8rem;
-    }
   }
 
   button {
-    margin: 10px 10px 0 0;
+    margin: 0 10px 10px 0;
   }
 
   h4:nth-child(3) {
@@ -73,4 +65,8 @@ const Styles = styled.main`
   }
 `;
 
-export default Home;
+export const getStaticProps: GetStaticProps = async () => {
+  const pageData = await getPageData("home");
+
+  return { props: { pageData } };
+};

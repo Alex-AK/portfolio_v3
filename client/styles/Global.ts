@@ -48,7 +48,7 @@ export default css`
 
   h1 {
     font-size: 3rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     letter-spacing: 1.25px;
     line-height: 2;
     margin-bottom: 15px;
@@ -98,6 +98,10 @@ export default css`
     line-height: 1;
   }
 
+  strong {
+    font-weight: 600;
+  }
+
   p,
   label,
   span,
@@ -130,10 +134,7 @@ export default css`
   a {
     text-decoration: none;
     color: ${colors.darkGrey};
-  }
-
-  .hyperlink {
-    padding: 3px 2px 1px 2px;
+    padding: 3px 2px 0px 2px;
     border-bottom: 2px solid ${colors.linkHover};
 
     :hover {

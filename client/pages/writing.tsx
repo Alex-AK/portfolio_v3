@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Link from "components/General/Link";
 
 // posts
-import { getSortedPostsData } from "../util/fetchPosts";
+import { getSortedPostsData } from "../util/fetchMarkdown";
 
 // types
 import { GetStaticProps } from "next";
