@@ -41,27 +41,10 @@ const Footer = () => {
 export default Footer;
 
 const Styles = styled.div`
-  flex-shrink: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  height: 50px;
   margin: 0 auto;
-
-  @media (max-width: 600px) {
-    width: 100%;
-    margin: 0 auto 0 auto;
-    left: 0;
-  }
 
   img {
     width: 28px;
     margin: 0 15px;
-  }
-
-  a {
-    text-decoration: none;
-    z-index: 3;
   }
 `;

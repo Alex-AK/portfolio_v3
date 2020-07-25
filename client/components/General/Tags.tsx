@@ -35,7 +35,7 @@ const Styles = styled.div`
     font-size: 1.4rem;
 
     :hover {
-      background: ${colors.linkHover};
+      background: ${colors.yellowHover};
     }
   }
 `;

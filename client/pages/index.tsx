@@ -11,6 +11,9 @@ import { getPageData } from "util/fetchMarkdown";
 import { GetStaticProps } from "next";
 import { PageDataProps } from "types";
 
+// theme
+import { colors } from "styles/theme";
+
 interface Props {
   pageData: PageDataProps;
 }
@@ -26,6 +29,8 @@ const Home = ({ pageData }: Props) => {
       </Head>
 
       <Styles id="page">
+        <img src="assets/coffee-menu.jpg" alt="Coffee Menu" />
+
         <div>
           <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
@@ -47,21 +52,38 @@ const Styles = styled.main`
   justify-content: center;
   align-items: center;
 
-  .content {
-    margin-right: 10%;
+  img {
+    position: fixed;
+    opacity: 0.1;
+    left: 3%;
+    top: 5%;
+    width: 300px;
+
+    @media (max-width: 1200px) {
+      display: none;
+    }
   }
 
-  h1 span {
-    font-weight: 300;
-    font-size: 2.8rem;
-  }
+  div {
+    background: ${colors.background};
+    z-index: 1;
 
-  button {
-    margin: 0 10px 10px 0;
-  }
+    a {
+      font-size: inherit;
+    }
 
-  h4:nth-child(3) {
-    margin: 15px 0;
+    h1 span {
+      font-weight: 300;
+      font-size: 2.8rem;
+    }
+
+    button {
+      margin: 0 10px 10px 0;
+    }
+
+    h4:nth-child(3) {
+      margin: 15px 0;
+    }
   }
 `;
 

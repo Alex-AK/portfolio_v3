@@ -13,7 +13,7 @@ const MainNavigation = ({}: Props) => {
 
   return (
     <Styles id="header-navigation">
-      <div className="menu">
+      <div className="menu" role="menu">
         {menuItems.map((item) => {
           if (item === "home") {
             return (
@@ -43,8 +43,21 @@ const Styles = styled.nav`
   align-items: center;
 
   .menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+
+    @media (max-width: 573px) {
+      margin-top: 20px;
+    }
+
     a {
-      margin-left: 50px;
+      margin-left: 40px;
+
+      @media (max-width: 573px) {
+        margin-top: 10px;
+      }
     }
   }
 `;

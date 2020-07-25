@@ -61,27 +61,27 @@ Button.defaultProps = {
 };
 
 const Styles = styled.button`
-  font-family: "Helvetica", sans-serif;
   font-size: 1.5rem;
+  font-family: inherit;
   text-transform: capitalize;
 
   min-width: 110px;
   height: 40px;
   padding-top: 3px;
 
-  background: ${colors.yellow};
+  background: ${colors.lightYellow};
   border: solid 1px ${colors.paleGrey};
   border-radius: 4px;
 
   :hover {
-    background: ${colors.seaFoam};
+    background: ${colors.yellow};
     transition: 0.3s;
     cursor: pointer;
   }
 
   :focus {
     outline: none;
-    background: ${colors.seaFoam};
+    background: ${colors.yellow};
   }
 
   /* find button options in Options stylesheet 
