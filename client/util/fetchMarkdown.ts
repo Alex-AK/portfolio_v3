@@ -50,7 +50,7 @@ export const getAllPostIds = () => {
   });
 };
 
-export const getPostData = async (id: number) => {
+export const getPostData = async (id: string | string[]) => {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
