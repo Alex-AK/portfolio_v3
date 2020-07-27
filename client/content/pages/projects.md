@@ -1,5 +1,5 @@
 ---
-title: "About Me | Alex King"
+title: "Projects | Alex King"
 ---
 
 # **Projects 🗃**

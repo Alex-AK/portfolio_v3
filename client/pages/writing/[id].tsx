@@ -23,7 +23,7 @@ const Post = ({ postData }: Props) => {
   return (
     <Styles id="page">
       <Head>
-        <title>{title}</title>
+        <title>{title} | Alex King Writing</title>
       </Head>
 
       <article>

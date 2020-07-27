@@ -67,7 +67,7 @@ const Styles = styled.button`
 
   min-width: 110px;
   height: 40px;
-  padding-top: 3px;
+  padding-top: 1px;
 
   background: ${colors.lightYellow};
   border: solid 1px ${colors.lightYellow};
