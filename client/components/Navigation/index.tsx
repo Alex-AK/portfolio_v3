@@ -3,13 +3,17 @@ import styled from "styled-components";
 // components
 import Link from "components/General/Link";
 
+// theme
+import { colors } from "styles/theme";
+
 interface Props {} // eslint-disable-line
 
 const menuItems = ["home", "projects", "writing", "about", "now", "contact"];
 
 const MainNavigation = ({}: Props) => {
+  const { pathname } = window.location;
   // hide main navigation on homepage, in favor of buttons
-  if (window.location.pathname === "/") return <div style={{ height: 60 }} />;
+  if (pathname === "/") return <div style={{ height: 100 }} />;
 
   return (
     <Styles id="header-navigation">
@@ -19,7 +23,14 @@ const MainNavigation = ({}: Props) => {
             return <Link key={item} href="/" text={item} />;
           }
 
-          return <Link key={item} href={`/${item}`} text={item} />;
+          return (
+            <Link
+              key={item}
+              href={`/${item}`}
+              text={item}
+              className={pathname.includes(item) ? "active" : ""}
+            />
+          );
         })}
       </div>
     </Styles>
@@ -30,6 +41,7 @@ export default MainNavigation;
 
 const Styles = styled.nav`
   height: 60px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -50,6 +62,10 @@ const Styles = styled.nav`
       @media (max-width: 573px) {
         margin-top: 10px;
       }
+    }
+
+    .active {
+      background: ${colors.yellow};
     }
   }
 `;

@@ -48,10 +48,8 @@ export default css`
 
   h1 {
     font-size: 3rem;
-    /* font-weight: bold; */
     letter-spacing: 1.25px;
     line-height: 2;
-    margin-bottom: 15px;
 
     @media (max-width: 800px) {
       font-size: 2.6rem;
@@ -60,8 +58,7 @@ export default css`
 
   h2 {
     font-size: 2.4rem;
-    word-spacing: 3px;
-    margin-bottom: 15px;
+    margin-top: 15px;
     line-height: 1.8;
 
     @media (max-width: 800px) {
@@ -71,6 +68,7 @@ export default css`
 
   h3 {
     font-size: 1.8rem;
+    margin-top: 10px;
     padding-bottom: 10px;
     line-height: 1.8;
 
@@ -81,8 +79,8 @@ export default css`
 
   h4 {
     font-size: 1.6rem;
+    margin-top: 5px;
     letter-spacing: 1px;
-    padding-bottom: 5px;
     line-height: 1.6;
 
     @media (max-width: 800px) {
@@ -117,6 +115,7 @@ export default css`
   a,
   li {
     font-size: 1.6rem;
+    line-height: 1.2;
     font-family: inherit;
 
     :focus {
@@ -128,7 +127,7 @@ export default css`
   label {
     line-height: 1.5;
     letter-spacing: 0.5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
     @media (max-width: 800px) {
       font-size: 1.5rem;
@@ -169,5 +168,10 @@ export default css`
   time {
     font-size: 1.6rem;
     color: ${colors.mediumGrey};
+  }
+
+  li {
+    margin: 0 0 8px 20px;
+    list-style: circle;
   }
 `;
