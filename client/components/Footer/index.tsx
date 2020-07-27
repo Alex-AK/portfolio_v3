@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <Styles id="footer-navigation">
       <Link
-        href="https://twitter.com/_alex_ak"
+        href="https://twitter.com/alex_ak_"
         className="no-styles"
         openInNewTab
       >
@@ -40,8 +40,8 @@ const Footer = () => {
 
 export default Footer;
 
-const Styles = styled.div`
-  margin: 0 auto;
+const Styles = styled.footer`
+  margin: 60px auto 20px;
 
   img {
     width: 28px;
