@@ -1,17 +1,26 @@
 import Head from "next/head";
 import styled from "styled-components";
 
-interface Props {} // eslint-disable-line
+// util
+import { getPageData } from "util/fetchMarkdown";
 
-const Now = ({}: Props) => {
+// types
+import { GetStaticProps } from "next";
+import { PageDataProps } from "types";
+interface Props {
+  pageData: PageDataProps;
+}
+
+const Now = ({ pageData }: Props) => {
+  const { title, contentHtml } = pageData;
   return (
     <>
       <Head>
-        <title>Now | Alex King</title>
+        <title>{title}</title>
       </Head>
 
       <Styles id="page">
-        <h1>Now</h1>
+        <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
       </Styles>
     </>
   );
@@ -20,3 +29,9 @@ const Now = ({}: Props) => {
 export default Now;
 
 const Styles = styled.main``;
+
+export const getStaticProps: GetStaticProps = async () => {
+  const pageData = await getPageData("now");
+
+  return { props: { pageData } };
+};

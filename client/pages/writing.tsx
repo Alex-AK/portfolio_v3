@@ -29,7 +29,7 @@ const Writing = ({ posts }: Props) => {
         <title>Writing | Alex King</title>
       </Head>
       <Styles id="page">
-        <h1>Writing</h1>
+        <h1>Writing ✍️</h1>
 
         <section>
           {posts.map(({ id, title }) => (
