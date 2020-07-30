@@ -58,7 +58,7 @@ export default css`
 
   h2 {
     font-size: 2.4rem;
-    margin-top: 15px;
+    margin-top: 25px;
     line-height: 1.8;
 
     @media (max-width: 800px) {

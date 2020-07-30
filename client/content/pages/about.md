@@ -2,34 +2,36 @@
 title: "About Me | Alex King"
 ---
 
-# **About Me** 👋
+# **About Me** 👋 (in Progress...)
 
 ## Location
 
-Seattle, Washington 🌇
+Born in Montreal 🏙
 
-## Personal Life
+Raised in Northern Nevada 🌄
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Live in Seattle, Washington 🌇
 
-## Work Background
+<!-- ## Work life, learning, and inner peace.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Biology and disease prevention.
 
-## Learning
+Yoga, Meditation, and More...
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Shift into technology. Currently working with mission driven organizations and good people.
 
-## Simplicity
+<a href="https://forumone.com" target="_blank" rel="noopener noreferrer"></a>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<a href="https://matrixmultiplier.com" target="_blank" rel="noopener noreferrer"></a>
 
-## Dachshunds
+<a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer"></a>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## Personal life, exploration, and dachshunds.
 
-## Other?
+A theme that runs through my actions is simplicity.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Continued learning and balance.
+
+I think it's clear that dachshunds are by far the cutest dogs. No need to say more. -->
 
 #### <br/> Want to connect? [I'd love to hear from you.](/contact)

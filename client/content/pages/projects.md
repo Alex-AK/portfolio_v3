@@ -4,6 +4,14 @@ title: "Projects | Alex King"
 
 # **Projects 🗃**
 
+<div class="project">
+  <div class="project-images">
+    <img src="assets/projects/desktop/brainsquall.jpg" alt="" class="desktop" />
+    <img src="assets/projects/mobile/brainsquall.png" alt="" class="mobile"/>
+  </div>
+
+  <div class='project-content'>
+
 ## BrainSquall
 
 A web application that combines a mind map, outline, and table to gather, organize, and share complex ideas.
@@ -15,6 +23,17 @@ A web application that combines a mind map, outline, and table to gather, organi
 
 <a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">View Site</a>
 [Read More](/writing/brainsquall)
+
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-images">
+    <img src="assets/projects/desktop/kingston.jpg" alt="" class="desktop" />
+    <img src="assets/projects/mobile/kingston.png" alt="" class="mobile"/>
+  </div>
+
+  <div class='project-content'>
 
 ## Kingston Co.
 
@@ -28,6 +47,17 @@ A custom developed performant e-commerce platform for men's high fashion product
 <a href="https://kingstonco.netlify.app" target="_blank" rel="noopener noreferrer">View Site</a>
 [Read More](/writing/kingston-co)
 
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-images">
+    <img src="assets/projects/desktop/triohub.jpg" alt="" class="desktop" />
+    <img src="assets/projects/mobile/triohub.png" alt="" class="mobile"/>
+  </div>
+
+  <div class='project-content'>
+
 ## TrioHub
 
 A rental organization web and mobile application allowing users track potential rentals, collaborate with housemates, and secure a home with ease.
@@ -38,6 +68,16 @@ A rental organization web and mobile application allowing users track potential 
 
 <a href="https://triohub.io" target="_blank" rel="noopener noreferrer">View Site</a>
 [Read More](/writing/triohub)
+
+  </div>
+</div>
+<div class="project">
+  <div class="project-images">
+    <img src="assets/projects/desktop/trainingbot.jpg" alt="" class="desktop" />
+    <img src="assets/projects/mobile/trainingbot.png" alt="" class="mobile"/>
+  </div>
+
+  <div class='project-content'>
 
 ## Training Bot
 
@@ -50,6 +90,16 @@ A web application allowing training managers to send employees automated text me
 <a href="https://triobot.co" target="_blank" rel="noopener noreferrer">View Site</a>
 [Read More](/writing/training-bot)
 
+  </div>
+</div>
+<div class="project">
+  <div class="project-images">
+    <img src="assets/projects/desktop/line.jpg" alt="" class="desktop" />
+    <img src="assets/projects/mobile/line.png" alt="" class="mobile"/>
+  </div>
+
+  <div class='project-content'>
+
 ## LINE
 
 An e-commerce site built with SquareSpace to meet client requirements of being able to manage store inventory and customer orders.
@@ -59,5 +109,8 @@ An e-commerce site built with SquareSpace to meet client requirements of being a
 - Serve as webmaster; handle web management, security assurance, and site integrity.
 
 [Read More](/writing/line)
+
+  </div>
+</div>
 
 #### <br/> Want to connect? [I'd love to hear from you.](/contact)
