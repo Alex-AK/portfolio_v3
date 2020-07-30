@@ -40,6 +40,6 @@ const Styles = styled.div`
   margin: 0 4%;
 
   #page {
-    min-height: calc(100vh - 212px);
+    min-height: calc(100vh - 220px);
   }
 `;
