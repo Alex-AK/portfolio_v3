@@ -1,5 +1,6 @@
 ---
 title: "Alex King | Software Developer"
+description: "I'm Seattle based freelance software developer with a love for coffee, pleasant user experience, and intentionality."
 ---
 
 # **Alex King** | Software Developer 👨‍💻

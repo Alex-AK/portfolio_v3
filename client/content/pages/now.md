@@ -17,7 +17,7 @@ Currently working on this portfolio with
 and
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript</a>.
 
-Solving problems for a <a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">Seattle Startup</a>.
+Planning phase for my next project. More to come soon. 🤫
 
 ## Currently Reading
 
