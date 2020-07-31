@@ -33,7 +33,12 @@ const Styles = styled.main`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+      grid-gap: 40px;
+    }
   }
 
   .project-images {
@@ -41,8 +46,9 @@ const Styles = styled.main`
     width: 450px;
     margin: 50px auto 0 auto;
 
-    @media (max-width: 600px) {
-      width: 320px;
+    @media (max-width: 500px) {
+      width: 90%;
+      margin-left: 0;
     }
 
     .desktop {
@@ -56,7 +62,7 @@ const Styles = styled.main`
       right: -30px;
       top: 20px;
 
-      @media (max-width: 600px) {
+      @media (max-width: 500px) {
         width: 110px;
       }
     }
