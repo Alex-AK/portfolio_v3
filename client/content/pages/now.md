@@ -2,12 +2,13 @@
 title: "Now | Alex King"
 ---
 
-# **Now** ⏱
+# **Now** 😷
 
-## What is this?
+**Last updated:** July 30, 2020
 
-This is a
-<a href="https://nownownow.com/about" target="_blank" rel="noopener noreferrer">now page</a>, and if you have your own site, you should make one, too.
+## What's this?
+
+Learn more <a href="https://nownownow.com/about" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Development
 
@@ -36,8 +37,8 @@ The last couple of months have been a process of creative exploration, buying pl
 
 - **Guitar** - it's been years since I've played guitar. I sold my last instrument 5 years ago after moving around several times and losing an interest in playing. I recently bought myself a <a href="https://www.acclaim-music.com/live/images/T/Norman%20039807%20Acclaim%20thumb.jpg" target="_blank" rel="noopener noreferrer">Norman Expedition Parlor Acoustic</a> and have been playing daily.
 
-- **Biking** - earlier this year I bought a bike, recently I converted it to e-assist. It's a game changer.
+- **Biking** - earlier this year I bought a bike. I recently converted it to e-assist. It's a game changer.
 
-- **Backpacking, Camping** - getting back into camping (haven't done much since childhood - notice a theme?).
+- **Backpacking and Camping** - getting back into camping (haven't done much since childhood) and planning my first bike camping trips.
 
 #### <br/> Want to connect? [I'd love to hear from you.](/contact)
