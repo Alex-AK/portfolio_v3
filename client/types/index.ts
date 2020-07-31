@@ -20,4 +20,9 @@ export type MetaDataProps = {
   code: string;
 };
 
-export type PageDataProps = { id: string; title: string; contentHtml: string };
+export type PageDataProps = {
+  id: string;
+  title: string;
+  description: string;
+  contentHtml: string;
+};
