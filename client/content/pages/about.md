@@ -16,7 +16,7 @@ Live in Seattle, Washington 🌇
 
 Currently working as the lead software developer with <a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">BrainSquall</a> and doing quality assurance and technical consultant with <a href="https://matrixmultiplier.com" target="_blank" rel="noopener noreferrer">Matrix Multiplier</a> and <a href="https://forumone.com" target="_blank" rel="noopener noreferrer">Forum One</a>.
 
-As a freelance software developer, my goal is to support you in building quality software and websites with an emphasis on pleasant user experience. I specialize in building simple, accessible, and performant applications.
+As a freelance software developer, my goal is to support you in building quality software and websites with an emphasis on pleasant user experience. I specialize in building simple, accessible, and performant web applications.
 
 If you're looking to plan or prototype a new project, working on wireframes or designs, building an minimum viable product (MVP), or expanding an existing product, let's chat!
 
@@ -30,7 +30,7 @@ Looking for development or freelance mentorship? [I'd love to support you.](/con
 
 ## Values
 
-I'm interest in working in people who are building ethical and altruistic products. Here are some of the values I look for in partnerships.
+I'm interest in working on building ethical and altruistic products. Here are some values I align with in my work.
 
 - Mission driven product
 - Strong communication
