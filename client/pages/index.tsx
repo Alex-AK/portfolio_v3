@@ -19,13 +19,14 @@ interface Props {
 }
 
 const Home = ({ pageData }: Props) => {
-  const { title, contentHtml } = pageData;
+  const { title, description, contentHtml } = pageData;
 
   return (
     <>
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content={description} />
       </Head>
 
       <Styles id="page">

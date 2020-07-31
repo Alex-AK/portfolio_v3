@@ -42,7 +42,8 @@ export default css`
   ol,
   li,
   input,
-  textarea {
+  textarea,
+  blockquote {
     max-width: 650px;
   }
 
@@ -127,7 +128,7 @@ export default css`
   label {
     line-height: 1.5;
     letter-spacing: 0.5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
     @media (max-width: 800px) {
       font-size: 1.5rem;
@@ -173,5 +174,21 @@ export default css`
   li {
     margin: 0 0 8px 20px;
     list-style: circle;
+  }
+
+  blockquote {
+    margin: 40px 0;
+    padding: 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    p {
+      font-size: 1.5rem;
+
+      :last-child {
+        text-align: right;
+        margin: 0;
+      }
+    }
   }
 `;
