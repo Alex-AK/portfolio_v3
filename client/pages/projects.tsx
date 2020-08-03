@@ -44,6 +44,7 @@ const Styles = styled.main`
   .project-images {
     position: relative;
     width: 450px;
+    min-height: 205px;
     margin: 50px auto 0 auto;
 
     @media (max-width: 500px) {
