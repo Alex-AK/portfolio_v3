@@ -83,7 +83,7 @@ const Styles = styled.main`
     }
 
     h4:nth-child(3) {
-      margin: 15px 0;
+      margin: 15px 0 25px 0;
     }
   }
 `;

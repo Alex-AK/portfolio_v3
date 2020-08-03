@@ -18,7 +18,7 @@ Living in Seattle 🌇
 
 Working remotely 👨‍💻
 
-## Work life
+## Services
 
 As a freelance software developer, my goal is to help you achieve yours - I'm here to plan, build, and deliver quality software and websites with an emphasis achieving business goals and serving your customers. I specialize in building simple, ethical, accessible, and performant web applications.
 
@@ -51,7 +51,7 @@ I'm interest in working on building ethical and altruistic products. Here are so
 >
 > Mark Bullard, Founder [BrainSquall](/writing/brainsquall) -->
 
-## Personal life
+## Personal
 
 I'm introverted at heart <a href="https://www.16personalities.com/infj-personality" target="_blank" rel="noopener noreferrer">(INFJ)</a> and enjoy connecting with others. As an ex biologst / yoga instructor turned software developer, I think it's clear that dachshunds are by far the best dogs.
 
