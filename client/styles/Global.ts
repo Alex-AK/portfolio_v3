@@ -138,13 +138,13 @@ export default css`
   a {
     text-decoration: none;
     color: ${colors.darkGrey};
-    padding: 3px 2px 0px 2px;
+    padding-top: 3px;
     border-bottom: 2px solid ${colors.lightYellow};
 
     :hover,
     :focus {
       background: ${colors.yellow};
-      transition: 0.4s;
+      transition: 0.6s;
       cursor: pointer;
     }
   }

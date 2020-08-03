@@ -8,7 +8,7 @@ import { colors } from "styles/theme";
 
 interface Props {} // eslint-disable-line
 
-const menuItems = ["home", "projects", "writing", "about", "now", "contact"];
+const menuItems = ["home", "projects", "about", "now", "contact"];
 
 const MainNavigation = ({}: Props) => {
   const { pathname } = window.location;
@@ -58,6 +58,8 @@ const Styles = styled.nav`
 
     a {
       margin-left: 40px;
+      padding-left: 1px;
+      padding-right: 1px;
 
       @media (max-width: 573px) {
         margin-top: 10px;

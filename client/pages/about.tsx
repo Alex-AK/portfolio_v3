@@ -28,7 +28,20 @@ const About = ({ pageData }: Props) => {
 
 export default About;
 
-const Styles = styled.main``;
+const Styles = styled.main`
+  img {
+    border-radius: 50%;
+    width: 250px;
+    margin: 0 0 20px 20px;
+    float: right;
+
+    @media (max-width: 600px) {
+      width: 220px;
+      float: none;
+      margin: 25px 0 0;
+    }
+  }
+`;
 
 export const getStaticProps: GetStaticProps = async () => {
   const pageData = await getPageData("about");
