@@ -37,6 +37,7 @@ const Styles = styled.main`
 
     @media (max-width: 600px) {
       width: 220px;
+      min-height: 220px;
       float: none;
       margin: 25px 0 0;
     }
