@@ -2,9 +2,9 @@
 title: Training Bot
 author: Alex King
 date: "2019-06"
-tags: case study, javascript, react, node
-site: https://alex-ak.com
-code: /portfolio_v2
+tags: case study, personal project
+site: https://trainingbot.co
+code: training-bot
 ---
 
 ## Introduction

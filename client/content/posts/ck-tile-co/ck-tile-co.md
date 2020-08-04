@@ -4,7 +4,7 @@ author: Alex King
 date: "2019-09"
 tags: client project, case study
 site: https://cktile.co
-code: /cktile.co
+code: alex-ak/cktile.co
 ---
 
 ## Introduction

@@ -4,7 +4,7 @@ author: Alex King
 date: "2019-07"
 tags: case study, personal project
 site: https://alex-ak.com
-code: /portfolio_v2
+code: alex-ak/portfolio_v2
 ---
 
 ## Introduction

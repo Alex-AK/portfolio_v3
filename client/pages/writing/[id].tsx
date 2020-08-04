@@ -35,7 +35,13 @@ const Post = ({ postData }: Props) => {
 
       {site && <Link href={site} text="View Site" openInNewTab />}
 
-      {code && <Link href={code} text="View Code" openInNewTab />}
+      {code && (
+        <Link
+          href={`https://github.com/${code}`}
+          text="View Code"
+          openInNewTab
+        />
+      )}
 
       <Link href="/writing">Return to Writing</Link>
     </Styles>

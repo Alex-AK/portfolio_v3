@@ -39,6 +39,10 @@ const Styles = styled.main`
       grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
       grid-gap: 40px;
     }
+
+    a {
+      margin-right: 5px;
+    }
   }
 
   .project-images {

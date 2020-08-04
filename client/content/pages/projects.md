@@ -88,6 +88,7 @@ A web application allowing training managers to send employees automated text me
 - Utilized APIs such as Twilio, SendGrid, Auth0, and Stripe to meet feature complete deadlines.
 
 <a href="https://triobot.co" target="_blank" rel="noopener noreferrer">View Site</a>
+<a href="https://github.com/training-bot" target="_blank" rel="noopener noreferrer">View Code</a>
 [Read More](/writing/training-bot)
 
   </div>
