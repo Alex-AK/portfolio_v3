@@ -30,7 +30,6 @@ const Post = ({ postData }: Props) => {
         <h1>{title}</h1>
         <Tags tags={tags} />
         <Date date={date} />
-
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
       </article>
 
@@ -47,6 +46,14 @@ export default Post;
 
 const Styles = styled.div`
   max-width: 800px;
+
+  article {
+    margin-bottom: 50px;
+  }
+
+  a {
+    margin-right: 10px;
+  }
 `;
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {

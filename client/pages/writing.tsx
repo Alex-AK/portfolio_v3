@@ -33,14 +33,14 @@ const Writing = ({ posts }: Props) => {
 
         <section>
           {posts.map(({ id, title }) => (
-            <Link
-              key={id}
-              href="/writing/[id]"
-              as={`/writing/${id}`}
-              className="no-styles"
-            >
-              <h4>{title}</h4>
-            </Link>
+            <h4 key={id}>
+              <Link
+                href="/writing/[id]"
+                as={`/writing/${id}`}
+                className="no-styles"
+                text={title}
+              />
+            </h4>
           ))}
         </section>
       </Styles>
@@ -50,7 +50,10 @@ const Writing = ({ posts }: Props) => {
 
 export default Writing;
 
-const Styles = styled.main``;
+const Styles = styled.main`
+  a {
+  }
+`;
 
 export const getStaticProps: GetStaticProps = async () => {
   const posts = getSortedPostsData();
