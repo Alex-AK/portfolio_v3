@@ -9,6 +9,8 @@ code: /cktile.co
 
 ## Introduction
 
+ck tile co. is a full tile services tiling company based out of Tunbridge, Vermont.
+
 ## Overview
 
 As a new business, ck tile co. needed an online presence. The goal with this client was to keep the website simple, clear, fast, and reliable. The marketing page consists of information new clients would need as well as a method to contact the business.
