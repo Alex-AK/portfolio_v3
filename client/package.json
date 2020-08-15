@@ -1,7 +1,14 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "alex-king-portfolio-v3",
+  "description": "Alex King Portfolio Site",
+  "version": "1.0.0",
+  "author": "Alex King <hello@alex-ak.com>",
   "private": false,
+  "homepage": "https://alexking.dev",
+  "keywords": [
+    "nextjs",
+    "alexking"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
