@@ -87,7 +87,7 @@ A web application allowing training managers to send employees automated text me
 - Coordinate with team of four developers to meet daily feature goals based on agile methodologies to build and deliver a scalable React, Redux notification bot with automated text and email services.
 - Utilized APIs such as Twilio, SendGrid, Auth0, and Stripe to meet feature complete deadlines.
 
-<a href="https://triobot.co" target="_blank" rel="noopener noreferrer">View Site</a>
+<a href="https://trainingbot.co" target="_blank" rel="noopener noreferrer">View Site</a>
 <a href="https://github.com/training-bot" target="_blank" rel="noopener noreferrer">View Code</a>
 [Read More](/writing/training-bot)
 
