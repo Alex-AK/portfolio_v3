@@ -34,7 +34,7 @@ Currently working as the lead software developer with <a href="https://brainsqua
 
 ## Values
 
-I'm interest in working on building ethical and altruistic products. Here are some values that align with in my work.
+I'm interest in working on building ethical and altruistic products. Here are some values that align with my work.
 
 - Mission driven organizations and products
 - Strong communication and transparency
