@@ -20,7 +20,7 @@ Working remotely 👨‍💻
 
 ## Services
 
-As a freelance software developer, my goal is to help you achieve yours - I'm here to plan, build, and deliver quality software and websites with an emphasis achieving business goals and serving your customers. I specialize in building simple, ethical, accessible, and performant web applications.
+As a freelance software developer, my goal is to help you achieve yours - I'm here to plan, build, and deliver quality software and websites with an emphasis on achieving business goals and serving your customers. I specialize in building simple, ethical, accessible, and performant web applications.
 
 If you're looking to plan or prototype a new project, working on wireframes or designs, building an minimum viable product (MVP), or expanding an existing product, [let's talk](/contact)!
 
