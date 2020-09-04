@@ -1,6 +1,15 @@
-export type HandleClick = () => void;
+import { Dispatch, SetStateAction } from "react";
 
-export type anyObject = Record<string, unknown>;
+export type HandleClickProps = () => void;
+export type HandleMouseLeave = () => void;
+
+export type SetMenuProps = Dispatch<SetStateAction<boolean>>;
+export type SetIndexProps = Dispatch<SetStateAction<number>>;
+export type SetSortProps = Dispatch<SetStateAction<string>>;
+
+export type SetFilterProps = Dispatch<SetStateAction<string[]>>;
+
+export type AnyObjectProps = Record<string, unknown>;
 
 export type PostDataProps = {
   id: string;
