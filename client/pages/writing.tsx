@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import styled from "styled-components";
 
 // components
@@ -23,11 +24,19 @@ interface Props {
 }
 
 const Writing = ({ posts }: Props) => {
-  const [sort, setSort] = useState("date");
-  const [filters, setFilters] = useState([]);
-  console.log(filters);
-
   const tags = getPostTags(posts);
+
+  const [sortByDesc, setSortByDesc] = useState(true);
+  const [sortBy, setSortBy] = useState<"date" | "title">("date");
+
+  const { query } = useRouter();
+  const filter = query.filter?.toString();
+
+  const setSort = (newSortBy: "date" | "title") => {
+    if (sortBy === newSortBy) setSortByDesc(!sortByDesc);
+
+    setSortBy(newSortBy);
+  };
 
   return (
     <>
@@ -42,19 +51,21 @@ const Writing = ({ posts }: Props) => {
 
         <div>
           <section>
-            {processPosts(posts, filters, sort).map(({ id, title }) => (
-              <h4 key={id}>
-                <Link
-                  href="/writing/[id]"
-                  as={`/writing/${id}`}
-                  className="no-styles"
-                  text={title}
-                />
-              </h4>
-            ))}
+            {processPosts(posts, sortBy, sortByDesc, filter).map(
+              ({ id, title }) => (
+                <h4 key={id}>
+                  <Link
+                    href="/writing/[id]"
+                    as={`/writing/${id}`}
+                    className="no-styles"
+                    text={title}
+                  />
+                </h4>
+              )
+            )}
           </section>
 
-          <Filters tags={tags} filters={filters} setFilters={setFilters} />
+          <Filters tags={tags} />
         </div>
       </Styles>
     </>

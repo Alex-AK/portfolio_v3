@@ -2,16 +2,23 @@ import { PostDataProps } from "types";
 
 const processPosts = (
   posts: [PostDataProps],
-  filters: string[],
-  sort: string
+  sortBy: "date" | "title",
+  sortByDesc: boolean,
+  filter?: undefined | string
 ) => {
-  const sortedPosts = posts.sort((a, b) =>
-    a[`${sort}`].toLowerCase() > b[`${sort}`].toLowerCase() ? 1 : -1
+  const sortedPosts = posts.sort((a, b) => {
+    const compare = a[`${sortBy}`].toLowerCase() > b[`${sortBy}`].toLowerCase();
+
+    if (!sortByDesc) return compare ? -1 : 1;
+
+    return compare ? 1 : -1;
+  });
+
+  if (!filter) return sortedPosts;
+
+  const processedPosts = sortedPosts.filter((post) =>
+    post.tags.includes(filter.replace("-", " "))
   );
-
-  if (filters.length === 0) return sortedPosts;
-
-  const processedPosts = sortedPosts;
 
   return processedPosts;
 };
