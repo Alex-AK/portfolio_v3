@@ -47,10 +47,12 @@ export default css`
   .tag {
     height: 25px;
     background: ${colors.lightYellow};
-    margin-right: 5px;
-    padding: 6px 15px 4px 15px;
+    margin: 0 5px 5px 0;
+    padding: 6px 15px;
     border-radius: 6px;
     font-size: 1.4rem;
+    text-align: center;
+    white-space: nowrap;
 
     :hover {
       background: ${colors.yellow};

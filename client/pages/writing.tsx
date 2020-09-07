@@ -4,9 +4,8 @@ import { useRouter } from "next/router";
 import styled from "styled-components";
 
 // components
-import Filters from "components/Writing/Filters";
 import Link from "components/General/Link";
-import Toolbar from "components/Writing/Toolbar";
+import SideBar from "components/Writing/Sidebar";
 
 // posts
 import { getSortedPostsData } from "../util/fetchMarkdown";
@@ -45,27 +44,35 @@ const Writing = ({ posts }: Props) => {
       </Head>
 
       <Styles id="page">
-        <h1>Writing ✍️</h1>
+        <div className="title-section">
+          {filter ? (
+            <h1>Writing by {filter.replace("-", " ")} ✍️</h1>
+          ) : (
+            <h1>Writing ✍️</h1>
+          )}
 
-        <Toolbar setSort={setSort} />
+          {filter && <Link text="clear filter" href="/writing" />}
+        </div>
 
         <div>
           <section>
             {processPosts(posts, sortBy, sortByDesc, filter).map(
-              ({ id, title }) => (
-                <h4 key={id}>
-                  <Link
-                    href="/writing/[id]"
-                    as={`/writing/${id}`}
-                    className="no-styles"
-                    text={title}
-                  />
-                </h4>
-              )
+              ({ id, title }) => {
+                return (
+                  <h4 key={id}>
+                    <Link
+                      href="/writing/[id]"
+                      as={`/writing/${id}`}
+                      className="no-styles"
+                      text={title}
+                    />
+                  </h4>
+                );
+              }
             )}
           </section>
 
-          <Filters tags={tags} />
+          <SideBar tags={tags} setSort={setSort} />
         </div>
       </Styles>
     </>
@@ -75,11 +82,24 @@ const Writing = ({ posts }: Props) => {
 export default Writing;
 
 const Styles = styled.main`
+  .title-section {
+    display: flex;
+    align-items: center;
+
+    a {
+      margin-left: 20px;
+    }
+  }
+
   div {
     display: flex;
 
     section {
       width: 70%;
+
+      @media (max-width: 800px) {
+        width: 100%;
+      }
     }
   }
 `;

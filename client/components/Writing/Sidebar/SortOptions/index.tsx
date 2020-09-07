@@ -1,4 +1,6 @@
 import styled from "styled-components";
+
+// components
 import Button from "components/General/Button";
 
 // types
@@ -10,15 +12,17 @@ interface Props {
 
 const ToolBar = ({ setSort }: Props) => {
   return (
-    <Styles>
-      <Button text="most recent" handleClick={() => setSort("date")} />
-      <Button text="title" handleClick={() => setSort("title")} />
+    <Styles className="options-container">
+      <h3>Sort By</h3>
+
+      <div>
+        <Button text="most recent" handleClick={() => setSort("date")} />
+        <Button text="title" handleClick={() => setSort("title")} />
+      </div>
     </Styles>
   );
 };
 
 export default ToolBar;
 
-const Styles = styled.div`
-  height: 60px;
-`;
+const Styles = styled.div``;

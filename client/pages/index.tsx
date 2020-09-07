@@ -78,7 +78,7 @@ const Styles = styled.main`
       font-size: 2.8rem;
     }
 
-    button {
+    .no-styles {
       margin: 0 10px 10px 0;
     }
 

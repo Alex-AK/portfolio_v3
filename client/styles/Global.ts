@@ -152,6 +152,7 @@ export default css`
   .no-styles {
     padding: 0;
     border: 0;
+    display: inline-block;
 
     :hover {
       background: transparent;
