@@ -3,7 +3,7 @@ import { colors } from "styles/theme";
 
 // components
 import Filters from "./Filters";
-import SortOptions from "./SortOptions";
+// import SortOptions from "./SortOptions";
 
 // types
 import { SetSortProps } from "types";
@@ -16,7 +16,7 @@ interface Props {
 const Sidebar = ({ tags, setSort }: Props) => {
   return (
     <Styles>
-      <SortOptions setSort={setSort} />
+      {/* <SortOptions setSort={setSort} /> */}
       <Filters tags={tags} />
     </Styles>
   );
