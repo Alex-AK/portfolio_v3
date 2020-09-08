@@ -60,6 +60,25 @@ const Styles = styled.div`
   a {
     margin-right: 10px;
   }
+
+  img {
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+  }
+
+  .main-image {
+    float: right;
+    margin: 0 0 20px 50px;
+    width: 450px;
+
+    @media (max-width: 950px) {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
 `;
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {

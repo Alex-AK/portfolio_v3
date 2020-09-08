@@ -7,6 +7,8 @@ site: https://alex-ak.com
 code: alex-ak/portfolio_v2
 ---
 
+<img src="/projects/portfolio-v2/landing.jpg" alt="Alex King | Software Developer Portfolio v2 landing page." class="main-image"/>
+
 ## Introduction
 
 My portfolio began on a quiet Sunday morning at my local coffee shop. The aim was to make a stylistically unique and calm website to communicate my interests, values, as well as technical skills and offerings to new and existing clients.
@@ -29,9 +31,12 @@ As with all of my work, my goal is to deliver a product that aligns with my clie
 - Responsive for all devices, meets accessibility standards and web development best practices.
 - Performance and search engine optimized with client side rendering.
 
-## Project Images Images
+## Project Images
 
-Images Coming Soon.
+<img src="/projects/portfolio-v2/projects.jpg" alt="Alex King | Software Developer Portfolio v2 projects page."/>
+<img src="/projects/portfolio-v2/writing.jpg" alt="Alex King | Software Developer Portfolio v2 writing page."/>
+<img src="/projects/portfolio-v2/about.jpg" alt="Alex King | Software Developer Portfolio v2 about page."/>
+<img src="/projects/portfolio-v2/contact.jpg" alt="Alex King | Software Developer Portfolio v2 contact page."/>
 
 ## Summary
 
