@@ -6,8 +6,8 @@ title: "Projects | Alex King"
 
 <div class="project">
   <div class="project-images">
-    <img src="assets/projects/desktop/brainsquall.jpg" alt="" class="desktop" />
-    <img src="assets/projects/mobile/brainsquall.png" alt="" class="mobile"/>
+    <img src="/projects/desktop/brainsquall.jpg" alt="" class="desktop" />
+    <img src="/projects/mobile/brainsquall.png" alt="" class="mobile"/>
   </div>
 
   <div class='project-content'>
@@ -29,8 +29,8 @@ A web application that combines a mind map, outline, and table to gather, organi
 
 <div class="project">
   <div class="project-images">
-    <img src="assets/projects/desktop/kingston.jpg" alt="" class="desktop" />
-    <img src="assets/projects/mobile/kingston.png" alt="" class="mobile"/>
+    <img src="/projects/desktop/kingston.jpg" alt="" class="desktop" />
+    <img src="/projects/mobile/kingston.png" alt="" class="mobile"/>
   </div>
 
   <div class='project-content'>
@@ -52,8 +52,8 @@ A custom developed performant e-commerce platform for men's high fashion product
 
 <div class="project">
   <div class="project-images">
-    <img src="assets/projects/desktop/triohub.jpg" alt="" class="desktop" />
-    <img src="assets/projects/mobile/triohub.png" alt="" class="mobile"/>
+    <img src="/projects/desktop/triohub.jpg" alt="" class="desktop" />
+    <img src="/projects/mobile/triohub.png" alt="" class="mobile"/>
   </div>
 
   <div class='project-content'>
@@ -73,8 +73,8 @@ A rental organization web and mobile application allowing users track potential 
 </div>
 <div class="project">
   <div class="project-images">
-    <img src="assets/projects/desktop/trainingbot.jpg" alt="" class="desktop" />
-    <img src="assets/projects/mobile/trainingbot.png" alt="" class="mobile"/>
+    <img src="/projects/desktop/trainingbot.jpg" alt="" class="desktop" />
+    <img src="/projects/mobile/trainingbot.png" alt="" class="mobile"/>
   </div>
 
   <div class='project-content'>
@@ -95,8 +95,8 @@ A web application allowing training managers to send employees automated text me
 </div>
 <div class="project">
   <div class="project-images">
-    <img src="assets/projects/desktop/line.jpg" alt="" class="desktop" />
-    <img src="assets/projects/mobile/line.png" alt="" class="mobile"/>
+    <img src="/projects/desktop/line.jpg" alt="" class="desktop" />
+    <img src="/projects/mobile/line.png" alt="" class="mobile"/>
   </div>
 
   <div class='project-content'>

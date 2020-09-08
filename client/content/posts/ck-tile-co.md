@@ -7,7 +7,7 @@ site: https://cktile.co
 code: alex-ak/cktile.co
 ---
 
-<img src="/projects/ck-tile-co/landing.jpg" alt="ck tile co. landing page." class="main-image"/>
+<img src="/posts/ck-tile-co/landing.jpg" alt="ck tile co. landing page." class="main-image"/>
 
 ## Introduction
 
@@ -28,10 +28,6 @@ Additionally, ck tile co. is search engine optimized, meets accessibility standa
 - Optimized performance for less than one second load time.
 - Search engine optimized.
 - Strong foundation for expansion.
-
-## Project Images
-
-Images Coming Soon.
 
 ## Technologies Used
 

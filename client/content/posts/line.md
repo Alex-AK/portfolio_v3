@@ -5,7 +5,7 @@ date: "2019-03"
 tags: client project, case study
 ---
 
-<img src="/projects/line/landing.jpg" alt="LINE landing page." class="main-image"/>
+<img src="/posts/line/landing.jpg" alt="LINE landing page." class="main-image"/>
 
 ## Introduction
 
@@ -25,10 +25,10 @@ With a clear design goal in mind, I produced wire frames, user interface / user 
 
 ## Project Images
 
-<img src="/projects/line/listing.jpg" alt="LINE listing page." />
-<img src="/projects/line/detail.jpg" alt="LINE detail page." />
-<img src="/projects/line/cart.jpg" alt="LINE cart page." />
-<img src="/projects/line/checkout.jpg" alt="LINE checkout page." />
+<img src="/posts/line/listing.jpg" alt="LINE listing page." />
+<img src="/posts/line/detail.jpg" alt="LINE detail page." />
+<img src="/posts/line/cart.jpg" alt="LINE cart page." />
+<img src="/posts/line/checkout.jpg" alt="LINE checkout page." />
 
 ## Summary
 

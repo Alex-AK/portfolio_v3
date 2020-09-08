@@ -7,7 +7,7 @@ site: https://trainingbot.co
 code: training-bot
 ---
 
-<img src="/projects/training-bot/landing.jpg" alt="Training Bot landing page." class="main-image"/>
+<img src="/posts/training-bot/landing.jpg" alt="Training Bot landing page." class="main-image"/>
 
 ## Introduction
 
@@ -31,9 +31,9 @@ Development took place over five weeks with a remote team of five software devel
 
 ## Project Images
 
-<img src="/projects/training-bot/dashboard.jpg" alt="Training Bot dashboard page."/>
-<img src="/projects/training-bot/template.jpg" alt="Training Bot template page."/>
-<img src="/projects/training-bot/assign.jpg" alt="Training Bot assign page."/>
+<img src="/posts/training-bot/dashboard.jpg" alt="Training Bot dashboard page."/>
+<img src="/posts/training-bot/template.jpg" alt="Training Bot template page."/>
+<img src="/posts/training-bot/assign.jpg" alt="Training Bot assign page."/>
 
 ## Summary
 

@@ -7,7 +7,7 @@ site: https://alex-ak.com
 code: alex-ak/portfolio_v2
 ---
 
-<img src="/projects/portfolio-v2/landing.jpg" alt="Alex King | Software Developer Portfolio v2 landing page." class="main-image"/>
+<img src="/posts/portfolio-v2/landing.jpg" alt="Alex King | Software Developer Portfolio v2 landing page." class="main-image"/>
 
 ## Introduction
 
@@ -33,10 +33,10 @@ As with all of my work, my goal is to deliver a product that aligns with my clie
 
 ## Project Images
 
-<img src="/projects/portfolio-v2/projects.jpg" alt="Alex King | Software Developer Portfolio v2 projects page."/>
-<img src="/projects/portfolio-v2/writing.jpg" alt="Alex King | Software Developer Portfolio v2 writing page."/>
-<img src="/projects/portfolio-v2/about.jpg" alt="Alex King | Software Developer Portfolio v2 about page."/>
-<img src="/projects/portfolio-v2/contact.jpg" alt="Alex King | Software Developer Portfolio v2 contact page."/>
+<img src="/posts/portfolio-v2/projects.jpg" alt="Alex King | Software Developer Portfolio v2 projects page."/>
+<img src="/posts/portfolio-v2/writing.jpg" alt="Alex King | Software Developer Portfolio v2 writing page."/>
+<img src="/posts/portfolio-v2/about.jpg" alt="Alex King | Software Developer Portfolio v2 about page."/>
+<img src="/posts/portfolio-v2/contact.jpg" alt="Alex King | Software Developer Portfolio v2 contact page."/>
 
 ## Summary
 
