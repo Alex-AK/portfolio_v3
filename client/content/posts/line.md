@@ -5,9 +5,11 @@ date: "2019-03"
 tags: client project, case study
 ---
 
+<img src="/posts/line/landing.jpg" alt="LINE landing page." class="main-image"/>
+
 ## Introduction
 
-LINE is an online home goods store for handmade accessories, furniture, lighting, linens, and prints built to match the optimism and curiousity of the business owner herself.
+LINE is an online home goods store for handmade accessories, furniture, lighting, linens, and prints built to match the optimism and curiosity of the business owner herself.
 
 ## Overview
 
@@ -21,9 +23,12 @@ With a clear design goal in mind, I produced wire frames, user interface / user 
 - Fully responsive to all device sizes.
 - Strong foundation for expansion.
 
-## Project Images Images
+## Project Images
 
-Images Coming Soon.
+<img src="/posts/line/listing.jpg" alt="LINE listing page." />
+<img src="/posts/line/detail.jpg" alt="LINE detail page." />
+<img src="/posts/line/cart.jpg" alt="LINE cart page." />
+<img src="/posts/line/checkout.jpg" alt="LINE checkout page." />
 
 ## Summary
 

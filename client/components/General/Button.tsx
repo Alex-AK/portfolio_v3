@@ -1,15 +1,17 @@
 import Link from "next/link";
-import { HandleClick } from "../../types";
 import styled from "styled-components";
 
 // theme
 import { colors } from "styles/theme";
 
+// types
+import { HandleClickProps } from "../../types";
+
 export interface Props {
   text: string;
   type?: "button" | "submit" | "reset";
   className?: string;
-  handleClick?: HandleClick;
+  handleClick?: HandleClickProps;
   testId?: string;
   redirect?: string;
 }

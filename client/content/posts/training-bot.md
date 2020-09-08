@@ -7,6 +7,8 @@ site: https://trainingbot.co
 code: training-bot
 ---
 
+<img src="/posts/training-bot/landing.jpg" alt="Training Bot landing page." class="main-image"/>
+
 ## Introduction
 
 Training Bot is a simple web application that lets training managers schedule and deliver automated messages via text or email to assigned learners or employees.
@@ -27,9 +29,11 @@ Development took place over five weeks with a remote team of five software devel
 - Secured database and server using Amazon Web Service.
 - Server and client side data validation and error handling.
 
-## Project Images Images
+## Project Images
 
-Images Coming Soon.
+<img src="/posts/training-bot/dashboard.jpg" alt="Training Bot dashboard page."/>
+<img src="/posts/training-bot/template.jpg" alt="Training Bot template page."/>
+<img src="/posts/training-bot/assign.jpg" alt="Training Bot assign page."/>
 
 ## Summary
 

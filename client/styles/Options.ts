@@ -44,4 +44,18 @@ export default css`
   }
 
   /* other options */
+  .tag {
+    height: 25px;
+    background: ${colors.lightYellow};
+    margin: 0 5px 5px 0;
+    padding: 6px 15px;
+    border-radius: 6px;
+    font-size: 1.4rem;
+    text-align: center;
+    white-space: nowrap;
+
+    :hover {
+      background: ${colors.yellow};
+    }
+  }
 `;
