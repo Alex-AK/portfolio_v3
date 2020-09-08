@@ -63,19 +63,27 @@ const Styles = styled.div`
 
   img {
     width: 100%;
+    height: 440px;
+
     margin: 10px 0;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border: 1px solid #d3d3d3;
     border-radius: 3px;
+
+    @media (max-width: 950px) {
+      height: auto;
+    }
   }
 
   .main-image {
     float: right;
     margin: 0 0 20px 50px;
     width: 450px;
+    height: 250px;
 
     @media (max-width: 950px) {
       width: 100%;
+      height: auto;
       margin: 10px 0;
     }
   }
