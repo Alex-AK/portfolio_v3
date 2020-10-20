@@ -9,9 +9,9 @@ const processPosts = (
   const sortedPosts = posts.sort((a, b) => {
     const compare = a[`${sortBy}`].toLowerCase() > b[`${sortBy}`].toLowerCase();
 
-    if (!sortByDesc) return compare ? -1 : 1;
+    if (!sortByDesc) return compare ? 1 : -1;
 
-    return compare ? 1 : -1;
+    return compare ? -1 : 1;
   });
 
   if (!filter) return sortedPosts;
