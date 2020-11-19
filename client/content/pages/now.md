@@ -4,7 +4,7 @@ title: "Now | Alex King"
 
 # **Now** 😷
 
-**Last updated:** November 8, 2020
+**Last updated:** November 18, 2020
 
 ## What's this?
 
@@ -12,7 +12,7 @@ Learn more <a href="https://nownownow.com/about" target="_blank" rel="noopener n
 
 ## Development
 
-Close to launching a personal passion project. More to come soon. 🏕
+Continuing to develop a <a href="https://getcampr.com" target="_blank" rel="noopener noreferrer">personal passion project</a> to help campers organize gear, plan trips, collaborate with friends, and finalize upcoming adventures with ease. 🏕
 
 And working on writing case studies for some of my recent project.
 
@@ -29,7 +29,9 @@ And working on writing case studies for some of my recent project.
 
 ## Currently Drinking ☕️
 
-Heart Coffee Roasters - <a href="https://www.heartroasters.com/collections/all/products/colombia-la-morelia" target="_blank" rel="noopener noreferrer">Colombia La Morelia</a>
+Olympia Coffee Roaster - <a href="https://www.olympiacoffee.com/collections/coffee/products/holiday-blend-1" target="_blank" rel="noopener noreferrer">Holiday Blend</a>
+
+<!-- Heart Coffee Roasters - <a href="https://www.heartroasters.com/collections/all/products/colombia-la-morelia" target="_blank" rel="noopener noreferrer">Colombia La Morelia</a> -->
 
 <!-- Olympia Coffee Roaster - <a href="https://www.olympiacoffee.com/collections/coffee/products/chelchele-natural-lot-225" target="_blank" rel="noopener noreferrer">Ethiopia Chelchele Natural Lot 225</a> -->
 
@@ -37,7 +39,7 @@ Heart Coffee Roasters - <a href="https://www.heartroasters.com/collections/all/p
 
 The last couple of months have been a process of creative exploration, knitting, and cooking.
 
-- **Cooking** - making pickled vegetables and preserves.
-- **Knitting** - started small with some knit squares for practice. Next up is a circular cowl then some hats.
+- **Cooking** - making pickled vegetables and preserves, planning holiday feasts for upcoming virtual holiday dinners.
+- **Knitting** - started small with some knit squares for practice. Almost done with my first big project - a circular scarf with alternating knit patterns.
 
 #### <br/> Want to connect? [I'd love to hear from you.](/contact)
