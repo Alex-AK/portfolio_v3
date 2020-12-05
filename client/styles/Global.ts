@@ -116,7 +116,7 @@ export default css`
   a,
   li {
     font-size: 1.6rem;
-    line-height: 1.2;
+    line-height: 1.3;
     font-family: inherit;
 
     :focus {

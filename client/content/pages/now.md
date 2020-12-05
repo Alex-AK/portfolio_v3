@@ -4,7 +4,7 @@ title: "Now | Alex King"
 
 # **Now** 😷
 
-**Last updated:** November 18, 2020
+**Last updated:** December 5, 2020
 
 ## What's this?
 
@@ -37,9 +37,10 @@ Olympia Coffee Roaster - <a href="https://www.olympiacoffee.com/collections/coff
 
 ## Personal & Creative
 
-The last couple of months have been a process of creative exploration, knitting, and cooking.
+Since reading <a href="https://www.amazon.com/Artists-Way-25th-Anniversary/dp/0143129252" target="_blank" rel="noopener noreferrer">The Artist's Way</a> I have been prioritizing creative exploration. Here are a few things I've been up to in my free time.
 
-- **Cooking** - making pickled vegetables and preserves, planning holiday feasts for upcoming virtual holiday dinners.
-- **Knitting** - started small with some knit squares for practice. Almost done with my first big project - a circular scarf with alternating knit patterns.
+- **Cooking** - planning holiday meals, cooking feasts, and enjoying virtual holiday dinners with family.
+- **Bread Making** - working on some of my first gluten free home made bread recipes. I'm starting with <a href="https://www.kingarthurbaking.com/recipes/blitz-bread-no-fuss-focaccia-recipe" target="_blank" rel="noopener noreferrer">King Arthur's No-Fuss Focaccia</a>. My first loaf turned out well, with some room for improvement!
+- **Knitting / Crocheting** - I recently finished my <a href="https://www.ravelry.com/patterns/library/simple-yet-effective" target="_blank" rel="noopener noreferrer">circular scarf with alternating knit patterns</a> after a few sample squares. Now I'm trying out a few crochet squares to see how it compares to knitting.
 
 #### <br/> Want to connect? [I'd love to hear from you.](/contact)

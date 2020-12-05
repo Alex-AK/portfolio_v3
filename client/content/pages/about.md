@@ -4,7 +4,7 @@ title: "About Me | Alex King"
 
 # **About Me** | Alex King 👋
 
-**Last updated:** October 20, 2020
+**Last updated:** December 5, 2020
 
 <img src="assets/alex-king-software-developer-photo.jpg" alt="Alex King Profile Image, Software Developer" />
 
@@ -30,7 +30,7 @@ If you're looking to plan or prototype a new project, working on wireframes or d
 
 Currently working as the lead software developer with <a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">BrainSquall</a> and doing quality assurance and technical consulting with <a href="https://matrixmultiplier.com" target="_blank" rel="noopener noreferrer">Matrix Multiplier</a> and <a href="https://forumone.com" target="_blank" rel="noopener noreferrer">Forum One</a>.
 
-[Interesting in working with me?](/contact) I offer free initial consultations so we can assess if working together is a good fit. **Currently available to discuss new work.**
+[Interesting in working with me?](/contact) I offer free initial consultations so we can assess if working together is a good fit. **Currently available starting mid-January.**
 
 ## Values
 
