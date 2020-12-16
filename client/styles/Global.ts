@@ -117,6 +117,7 @@ export default css`
   li {
     font-size: 1.6rem;
     line-height: 1.2;
+    letter-spacing: 0.5px;
     font-family: inherit;
 
     :focus {
@@ -127,7 +128,6 @@ export default css`
   p,
   label {
     line-height: 1.5;
-    letter-spacing: 0.5px;
     margin-bottom: 10px;
 
     @media (max-width: 800px) {
@@ -173,6 +173,7 @@ export default css`
   }
 
   li {
+    font-size: 1.5rem;
     margin: 0 0 8px 20px;
     list-style: circle;
   }

@@ -18,11 +18,56 @@ A web application that combines a mind map, outline, and table to gather, organi
 
 - Established and maintain engineering guidelines and development workflow including version control, continuous integration, pipeline config, and code review practices.
 - Delivered a PostgreSQL version-controlled database with secure production level RESTful API using Node.
-- Maintain approximately 80% server and client automated test coverage with Jest and React Testing Library.
-- Architect and contribute to rapidly expanding client-side React feature set with modular context state management.
+- Maintained approximately 80% server and client automated test coverage with Jest and React Testing Library.
+- Architected and contributed to a rapidly expanding client-side React feature set with modular context state management.
 
 <a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">View Site</a>
-[Read More](/writing/brainsquall)
+
+<!-- [Read More](/writing/brainsquall) -->
+
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-images">
+    <img src="/projects/desktop/campr.jpg" alt="" class="desktop" />
+    <img src="/projects/mobile/campr.png" alt="" class="mobile"/>
+  </div>
+
+  <div class='project-content'>
+
+## Campr
+
+A camping and backpacking tool for helping adventurers organize gear, plan trips, and inviting friends to collaborate.
+
+- Established NextJS/TypeScript serverless graphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
+- Implemented a Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
+
+<a href="https://getcampr.com/" target="_blank" rel="noopener noreferrer">View Site</a>
+
+<!-- [Read More](/writing/campr) -->
+
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-images">
+    <img src="/projects/desktop/triohub.jpg" alt="" class="desktop" />
+    <img src="/projects/mobile/triohub.png" alt="" class="mobile"/>
+  </div>
+
+  <div class='project-content'>
+
+## TrioHub
+
+A rental organization web and mobile application allowing users track potential rentals, collaborate with housemates, and secure a home with ease.
+
+- Established application styled guide, UI wireframes and high fidelity mockups, and UX flows for onboarding and main use cases using Figma.
+- Implemented drag and drop functionality with a custom positioning algorithm for a performant and accessible drag and drop experience.
+
+<a href="https://triohub.io" target="_blank" rel="noopener noreferrer">View Site</a>
+
+<!-- [Read More](/writing/triohub) -->
 
   </div>
 </div>
@@ -44,33 +89,11 @@ A custom developed performant e-commerce platform for men's high fashion product
 - Custom built item reservation system with automatic reservation expiration and database sync to maintain data continuity.
 - Implemented address management system with input validation and error handling.
 
-<a href="https://kingstonco.netlify.app" target="_blank" rel="noopener noreferrer">View Site</a>
-[Read More](/writing/kingston-co)
+<!-- [Read More](/writing/kingston-co) -->
 
   </div>
 </div>
 
-<div class="project">
-  <div class="project-images">
-    <img src="/projects/desktop/triohub.jpg" alt="" class="desktop" />
-    <img src="/projects/mobile/triohub.png" alt="" class="mobile"/>
-  </div>
-
-  <div class='project-content'>
-
-## TrioHub
-
-A rental organization web and mobile application allowing users track potential rentals, collaborate with housemates, and secure a home with ease.
-
-- Established application architecture and guidelines with an emphasis on expandability and maintainability for small engineering team.
-- Established application styled guide, UI wireframes and high fidelity mockups, and UX flows for onboarding and main use cases using Figma.
-- Implemented drag and drop functionality with a custom positioning algorithm for a performant and accessible drag and drop experience.
-
-<a href="https://triohub.io" target="_blank" rel="noopener noreferrer">View Site</a>
-[Read More](/writing/triohub)
-
-  </div>
-</div>
 <div class="project">
   <div class="project-images">
     <img src="/projects/desktop/trainingbot.jpg" alt="" class="desktop" />
