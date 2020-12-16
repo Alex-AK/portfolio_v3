@@ -34,6 +34,7 @@ const Styles = styled.main`
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 100px;
     margin-bottom: 60px;
+    min-height: 375px;
 
     @media (max-width: 600px) {
       grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
