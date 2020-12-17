@@ -11,7 +11,7 @@ We met at the Product Hunt camp fire a few days ago. Immediately upon joining To
 
 Topia's mission of bringing people together to share in experiences, through a creative world building platform, has gotten me excited beyond words.
 
-It was a pleasure to join in the conversation about community, human connection, prioritization of features, and maintaining a feeling of simplicity for Topia. It'd be great to connect further to discuss what y'all are looking for on the engineering team, if my skills align with those goals, and if we'd be a good fit working together.
+It was a pleasure to join in the conversation about the values of Topia. It'd be great to connect further to discuss what y'all are looking for on the engineering team and if my skills align with those goals.
 
 I've put together a summarized list of my recent work to highlight where I may be able to add value to Topia as a company and rapidly expanding codebase.
 
