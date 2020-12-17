@@ -30,11 +30,13 @@ If you're looking to plan or prototype a new project, working on wireframes or d
 
 Currently working as the lead software developer with <a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">BrainSquall</a> and doing quality assurance and technical consulting with <a href="https://matrixmultiplier.com" target="_blank" rel="noopener noreferrer">Matrix Multiplier</a> and <a href="https://forumone.com" target="_blank" rel="noopener noreferrer">Forum One</a>.
 
-[Interesting in working with me?](/contact) I offer free initial consultations so we can assess if working together is a good fit. **Currently available starting mid-January.**
+[Interesting in working with me?](/contact) I offer free initial consultations so we can assess if working together is a good fit. **Currently available starting April 2021.**
 
 ## Values
 
 I'm interest in working on building ethical and altruistic products. Here are some values that align with my work.
+
+<a id="values" href="#values" ></a>
 
 - Mission driven organizations and products
 - Strong communication and transparency
