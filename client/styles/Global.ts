@@ -50,7 +50,7 @@ export default css`
   h1 {
     font-size: 3rem;
     letter-spacing: 1.25px;
-    line-height: 2;
+    line-height: 2.2;
 
     @media (max-width: 800px) {
       font-size: 2.6rem;
@@ -58,9 +58,9 @@ export default css`
   }
 
   h2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     margin-top: 25px;
-    line-height: 1.8;
+    line-height: 2;
 
     @media (max-width: 800px) {
       font-size: 2rem;
