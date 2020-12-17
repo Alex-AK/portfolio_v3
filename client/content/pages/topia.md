@@ -11,9 +11,9 @@ We met at the Product Hunt camp fire a few days ago. Immediately upon joining To
 
 Topia's mission of bringing people together to share in experiences, through a creative world building platform, has gotten me excited beyond words.
 
-It was a pleasure to join in the conversation about community, human connection, prioritization of features, and maintaining a high standard and feeling of simplicity for Topia. It'd be great to connect further to discuss what y'all are looking for on the engineering team, if my skills align with those goals, and if we'd be a good fit working together.
+It was a pleasure to join in the conversation about community, human connection, prioritization of features, and maintaining a feeling of simplicity for Topia. It'd be great to connect further to discuss what y'all are looking for on the engineering team, if my skills align with those goals, and if we'd be a good fit working together.
 
-I've put together a summarized list of my recent work and highlighted area's where I may be able to add value to Topia as a company and rapidly expanding codebase.
+I've put together a summarized list of my recent work to highlight where I may be able to add value to Topia as a company and rapidly expanding codebase.
 
 I look forward to connecting soon.
 
@@ -24,24 +24,25 @@ Cheers
 
 ## **<a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">BrainSquall</a>** <span>**Lead Software Developer** | Remote | Sept 2019 - December 2020</span>
 
-An enterprise sales and customer success tool for keeping context in complex un-structured and linear data.
+An enterprise sales tool for keeping context in un-structured and linear data.
 
 ### Product Contribution
 
-- Delivered a PostgreSQL version-controlled database with secure production level RESTful API using Node.
-- Architected and contributed to a rapidly expanding client-side React feature set with modular context state management, while maintaining ~80% test coverage with Jest and React-Testing-Library.
-- Designed and delivered a custom templating system with public/private board permissions and copy functionality for sharing and collaboration.
+- Delivered PostgreSQL version-controlled database with a secure production level RESTful API.
+- Architected and contributed to rapidly expanding client-side React feature set with modular context state management, while maintaining ~80% test coverage.
+- Designed and delivered custom templating system with public/private board permissions and copy functionality to enable social sharing.
+- Implemented freemium-based subscription model with tiered permissions for application access.
 
 ### Company Contribution
 
-- Established and maintain engineering guidelines and development workflow including version control, continuous integration, pipeline config, and code review practices.
+- Established engineering guidelines and development workflow including version control, continuous integration, pipeline config, and code review practices.
 - Helped prioritize features based on stakeholder requests, design interests, and product needs (stability, security, performance) while leading a team of three junior software developer interns.
 
 ### Tools Used
 
 - React | NextJS | TypeScript | Node/Express | PostgreSQL | Google Cloud | Auth0
 
-> Alex is extremely organized and an underpromise/overdeliver kind of guy — he was able to deliver a fantastic working model in less time than planned.
+> Alex is extremely organized... an underpromise/overdeliver kind of guy — he was able to deliver a fantastic working model in less time than planned.
 >
 > Mark Bullard — Founder of BrainSquall
 
@@ -49,13 +50,13 @@ An enterprise sales and customer success tool for keeping context in complex un-
 
 ## **<a href="https://matrixmultiplier.com" target="_blank" rel="noopener noreferrer">Matrix Multiplier</a>** <span>**Quality Assurance Consultant** | Remote | Aug 2018 - Present</span>
 
-A small technology consulting agency specialized in supporting clients sustainably build accessible, performant, and stable software.
+A small technology consulting agency specialized in supporting clients build accessible, performant, and stable software.
 
 ### Contribution
 
-- Determine test scope, execute testing, and create detailed documentation for client teams on large scale Wordpress, Drupal, Wagtail, and React applications.
-- Audit and verify complex database and API versioning and advanced project permissions.
-- Develop and lead accessibility audits for WCAG 2.0 compliance, browser/device compatibility, and performance assessments on large web projects for various nonprofit and government agencies.
+- Determine test scope, execute testing, and create detailed documentation for client teams on large scale web applications.
+- Audit and verify complex database structures, API versioning, and advanced project permissions.
+- Develop and lead accessibility audits for WCAG 2.0 compliance, browser/device compatibility, and performance assessments for large <a href="https://www.forumone.com/work" target="_blank" rel="noopener noreferrer">nonprofit and government organizations</a>.
 
 ### Tools Used
 
@@ -74,7 +75,7 @@ A camping and backpacking tool for helping adventurers organize gear, plan trips
 ### Contribution
 
 - Established NextJS/TypeScript serverless GraphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
-- Implemented a Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
+- Implemented Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
 
 ### Tools Used
 

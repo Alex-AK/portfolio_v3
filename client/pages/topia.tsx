@@ -64,12 +64,6 @@ const Styles = styled.main`
     margin: 50px 0 5px 0;
   }
 
-  h2 {
-    a {
-      font-size: inherit;
-    }
-  }
-
   h3 {
     margin-top: 20px;
   }
@@ -86,6 +80,10 @@ const Styles = styled.main`
     font-size: 1.3rem;
     padding-top: 14px;
     float: right;
+  }
+
+  a {
+    font-size: inherit;
   }
 
   img {
