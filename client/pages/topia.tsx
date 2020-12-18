@@ -80,6 +80,12 @@ const Styles = styled.main`
     font-size: 1.3rem;
     padding-top: 14px;
     float: right;
+
+    @media (max-width: 600px) {
+      float: none;
+      display: block;
+      padding: 0 0 10px 0;
+    }
   }
 
   a {
