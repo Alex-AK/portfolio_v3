@@ -7,15 +7,15 @@ description: "I'm Seattle based freelance software developer with a love for cof
 
 My name is <a href="/about" target="_blank" rel="noopener noreferrer">Alex King</a>.
 
-We met at the Product Hunt camp fire a few days ago. Immediately upon joining Topia and strolling up to the camp fire, I had an overwhelmingly positive experience, sense of synchronicity, and belonging.
+Immediately upon joining your campfire in Topia (/hunters), I felt a profound sense of belonging and synchronicity, both of which prompted me to reach out.
 
-Topia's mission of bringing people together to share in experiences, through a creative world building platform, has gotten me excited beyond words.
+Topia's mission to bring people together in shared experience, through a creative world building platform, aligns with my creative goals as well as my values as a software developer.
 
-It was a pleasure to join in the conversation about community, human connection, prioritization of features, and maintaining a feeling of simplicity for Topia. It'd be great to connect further to discuss what y'all are looking for on the engineering team, if my skills align with those goals, and if we'd be a good fit working together.
+After connecting at the campfire, I believe my skills would add value to Topia's vision and upcoming interface development, world building user experience expansions, and permissions work.
 
 I've put together a summarized list of my recent work to highlight where I may be able to add value to Topia as a company and rapidly expanding codebase.
 
-I look forward to connecting soon.
+Hope to connect soon.
 
 Cheers
 

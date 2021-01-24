@@ -37,16 +37,14 @@ Development took place over five weeks with a remote team of five software devel
 
 ## Summary
 
-From a quiet Sunday morning coffee shop brainstorming session, portfolio was born. With scribbled design sketches and my ideal user experience in mind, I got to work. Once the basic structure of the site was in place I spent hours refining the styles and user experience to deliver the product you see today.
-
-Starting a new project can be daunting, but with dedicated planning and detailed notes, I was able to deliver the site you see from start to finish in four weeks of development.
+Over the course of five weeks, team Training Bot was able to plan, build, test, and deliver a simple and scalable automated text and email notification system. Through a series of user tests, we were able to iterate and refine the UI / UX of our application to meet our goals of simplifying the organization and management of recurring notifications.
 
 ## Technologies Used
 
-- React Hooks
-- React Router
-- Styled Components
-- FuseJS Search
-- React-Scripts
-- Contentful Content Management
-- MailChimp
+- React / JavaScript
+- Redux state management
+- Node / Express server
+- External APIs Twilio, SendGrid, Stripe, Auth0
+- Custom server side notification functions with cronjob
+- Material UI
+- MySQL / AWS
