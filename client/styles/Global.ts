@@ -57,7 +57,8 @@ export default css`
     }
   }
 
-  h2 {
+  h2,
+  legend {
     font-size: 2.2rem;
     margin-top: 25px;
     line-height: 2;
@@ -192,5 +193,38 @@ export default css`
         margin: 0;
       }
     }
+  }
+
+  /* form sections */
+  form {
+    max-width: 280px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 100px;
+
+    @media (max-width: 600px) {
+      margin: 20px auto;
+    }
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 3px;
+    background: #fafafa;
+    border: 1px solid #c7c7c7;
+  }
+
+  .hidden {
+    display: none;
   }
 `;

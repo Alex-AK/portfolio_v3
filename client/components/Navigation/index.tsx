@@ -8,7 +8,15 @@ import { colors } from "styles/theme";
 
 interface Props {} // eslint-disable-line
 
-const menuItems = ["home", "projects", "writing", "about", "now", "contact"];
+const menuItems = [
+  "home",
+  "projects",
+  "writing",
+  "about",
+  "now",
+  "evening",
+  "contact",
+];
 
 const MainNavigation = ({}: Props) => {
   const { pathname } = window.location;
