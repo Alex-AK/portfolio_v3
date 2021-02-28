@@ -180,8 +180,8 @@ export default css`
   }
 
   blockquote {
-    margin: 40px 0;
-    padding: 40px;
+    margin: 60px 0;
+    padding: 30px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 
