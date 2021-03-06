@@ -11,6 +11,7 @@ import { getPageData } from "util/fetchMarkdown";
 // types
 import { GetStaticProps } from "next";
 import { PageDataProps } from "types";
+
 interface Props {
   pageData: PageDataProps;
 }
@@ -27,30 +28,23 @@ const Study = ({ pageData }: Props) => {
       <Styles id="page">
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
-        <form name="study" netlify-honeypot="true" data-netlify="true">
+        <form
+          name="study"
+          netlify-honeypot="true"
+          data-netlify="true"
+          action="/success"
+          method="POST"
+        >
           <legend>Request an Invite</legend>
 
           <div className="form-control">
-            <input
-              id="name"
-              type="text"
-              name="name"
-              min="2"
-              max="50"
-              required
-            />
+            <input id="name" type="text" name="name" required />
             <label htmlFor="name">Name</label>
           </div>
 
           <div className="form-control">
-            <input
-              id="email"
-              type="text"
-              name="email"
-              min="3"
-              max="50"
-              required
-            />
+            {/* TODO: add JS email validation ? */}
+            <input id="email" type="text" name="email" required />
             <label htmlFor="email">Email</label>
           </div>
 
