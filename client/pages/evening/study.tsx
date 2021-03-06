@@ -29,7 +29,7 @@ const Study = ({ pageData }: Props) => {
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
         <form
-          name="study"
+          name="evening study"
           netlify-honeypot="true"
           data-netlify="true"
           action="/success"
@@ -37,7 +37,7 @@ const Study = ({ pageData }: Props) => {
         >
           <legend>Request an Invite</legend>
 
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="evening study" />
 
           <div className="form-control">
             <input id="name" type="text" name="name" required />
