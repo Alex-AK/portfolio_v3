@@ -23,7 +23,7 @@ const Study = ({ pageData }: Props) => {
       <Styles id="page">
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
-        <form netlify-honeypot>
+        <form netlify-honeypot="true">
           <legend>Request an Invite</legend>
           <p>
             Newsletter signup coming soon - for now, please send me an email at{" "}
