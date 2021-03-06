@@ -6,7 +6,7 @@ title: "Success | Alex King"
 
 #### An Evening is a collection of virtual and Seattle based events to help connect friends, neighbors, and acquaintances. The aim is provide a consistent space for connection, accountability, focused study time, or creative exploration.
 
-#### You are welcome to invite others by forwarding the emails, inviting them to join directly, or by having them visit the [event page](/evening).
+#### You are welcome to invite others by forwarding the email invitations, inviting them to join directly, or by having them visit the [event page](/evening) to sign up.
 
 #### Please note, each event has an separate mailing list. If you'd like to receive emails from multiple events, please subscribe to each.
 
