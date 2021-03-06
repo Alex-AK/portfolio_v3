@@ -37,6 +37,8 @@ const Study = ({ pageData }: Props) => {
         >
           <legend>Request an Invite</legend>
 
+          <input type="hidden" name="form-name" value="contact" />
+
           <div className="form-control">
             <input id="name" type="text" name="name" required />
             <label htmlFor="name">Name</label>
