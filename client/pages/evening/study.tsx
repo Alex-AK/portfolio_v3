@@ -1,5 +1,9 @@
 import Head from "next/head";
 import styled from "styled-components";
+import { colors } from "styles/theme";
+
+// components
+import Button from "components/General/Button";
 
 // util
 import { getPageData } from "util/fetchMarkdown";
@@ -23,28 +27,42 @@ const Study = ({ pageData }: Props) => {
       <Styles id="page">
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
-        <form netlify-honeypot="true">
+        <form name="study" netlify-honeypot="true" data-netlify="true">
           <legend>Request an Invite</legend>
-          <p>
-            Newsletter signup coming soon - for now, please send me an email at{" "}
-            <a href="mailto:hello@alex-ak.com">hello@alex-ak.com</a> to request
-            an invite.
-          </p>
-          {/* <label>
-            Name:
-            <input type="text" name="name" min="2" max="50" required />
-          </label>
-          <label>
-            Email:
-            <input type="text" name="email" min="3" max="50" required />
-          </label>
+
+          <div className="form-control">
+            <input
+              id="name"
+              type="text"
+              name="name"
+              min="2"
+              max="50"
+              required
+            />
+            <label htmlFor="name">Name</label>
+          </div>
+
+          <div className="form-control">
+            <input
+              id="email"
+              type="text"
+              name="email"
+              min="3"
+              max="50"
+              required
+            />
+            <label htmlFor="email">Email</label>
+          </div>
+
           <p className="hidden">
             <label>
               Don’t fill this out if you&apos;re human:{" "}
               <input name="bot-field" />
             </label>
-          </p> */}
-          {/* <Button text="Send" type="submit" handleClick={submitForm} /> */}
+          </p>
+          <Button text="Send" type="submit" />
+
+          <em>I will never share your data or send you unsolicited spam.</em>
         </form>
       </Styles>
     </>
@@ -59,6 +77,63 @@ const Styles = styled.main`
 
   @media (max-width: 600px) {
     display: block;
+  }
+
+  form {
+    legend {
+      margin-bottom: 15px;
+    }
+
+    .form-control {
+      position: relative;
+      margin-top: 20px;
+
+      input {
+        background: transparent;
+
+        border-radius: 0;
+        border: 0;
+        border-bottom: 2px solid ${colors.darkGrey};
+
+        display: block;
+
+        width: 100%;
+        padding: 15px 2px;
+
+        :focus {
+          outline: none;
+          border-bottom: 2px solid ${colors.yellow};
+        }
+
+        :invalid {
+          box-shadow: none;
+          outline: none;
+        }
+
+        :focus + label,
+        :valid + label {
+          color: ${colors.darkGrey};
+
+          transform: translateY(-30px);
+        }
+      }
+
+      label {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: inline-block;
+        min-width: 5px;
+
+        transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    }
+
+    em {
+      margin-top: 5px;
+      text-align: center;
+    }
   }
 `;
 
