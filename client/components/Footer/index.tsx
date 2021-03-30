@@ -8,14 +8,6 @@ const Footer = () => {
   return (
     <Styles id="footer-navigation">
       <Link
-        href="https://twitter.com/alex_ak_"
-        className="no-styles"
-        openInNewTab
-      >
-        <img src="/icons/twitter.png" alt="twitter icon" />
-      </Link>
-
-      <Link
         href="https://github.com/alex-ak"
         className="no-styles"
         openInNewTab
