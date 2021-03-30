@@ -5,29 +5,22 @@ import GlobalStyles from "styles";
 import Navigation from "components/Navigation";
 import Footer from "components/Footer";
 
-// hooks
-import useCSSHydrate from "hooks/useCSSHydrate";
-
 // types
 import { AppProps } from "next/app";
 
 const App = ({ Component, pageProps }: AppProps) => {
-  // render fragment until css is delivered
-  const isLoading = useCSSHydrate();
-  if (isLoading) return <></>;
-
   return (
-    <Styles>
+    <>
       <GlobalStyles />
 
-      <>
+      <Styles>
         <Navigation />
 
         <Component {...pageProps} />
 
         <Footer />
-      </>
-    </Styles>
+      </Styles>
+    </>
   );
 };
 

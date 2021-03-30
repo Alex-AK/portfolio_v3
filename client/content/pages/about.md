@@ -4,7 +4,7 @@ title: "About Me | Alex King"
 
 # **About Me** | Alex King 👋
 
-**Last updated:** December 5, 2020
+**Last updated:** February 28, 2021
 
 <img src="assets/alex-king-software-developer-photo.jpg" alt="Alex King Profile Image, Software Developer" />
 
@@ -26,9 +26,25 @@ If you're looking to plan or prototype a new project, working on wireframes or d
 
 > Alex perfectly distilled my ideas and aesthetic and encapsulated it into one of the most beautiful and functional websites I've ever seen. His talent and disposition made this seemingly insurmountable tasks a joy.
 >
-> Dawn Basset, Owner [LINE](/writing/line)
+> Dawn Basset, Owner of [LINE](/writing/line)
 
-Currently working as the lead software developer with <a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">BrainSquall</a> and doing quality assurance and technical consulting with <a href="https://matrixmultiplier.com" target="_blank" rel="noopener noreferrer">Matrix Multiplier</a> and <a href="https://forumone.com" target="_blank" rel="noopener noreferrer">Forum One</a>.
+### **Current Work**
+
+- Software engineer with <a href="https://topia.io/" target="_blank" rel="noopener noreferrer">Topia</a>.
+
+- Quality assurance and technical consultant with <a href="https://matrixmultiplier.com" target="_blank" rel="noopener noreferrer">Matrix Multiplier</a> and <a href="https://forumone.com" target="_blank" rel="noopener noreferrer">Forum One</a>.
+
+> His work ethic, eye for detail, and thoughtful, curious approach to both the technical and the interpersonal have set him apart... he's ensured quality products and releases for <a href="https://www.forumone.com/ideas/forum-one-webawards-results/" target="_blank" rel="noopener noreferrer">award-winning websites</a> for end clients doing high visibility, high profile work around the globe.
+>
+> Corinne Cooley — Founder of Matrix Multiplier
+
+### **Previous Work**
+
+- Lead software engineer at <a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">BrainSquall</a>.
+
+> Alex is extremely organized... an underpromise/overdeliver kind of guy — he was able to deliver a fantastic working model in less time than planned.
+>
+> Mark Bullard — Founder of BrainSquall
 
 [Interesting in working with me?](/contact) I offer free initial consultations so we can assess if working together is a good fit. **Currently available starting April 2021.**
 
