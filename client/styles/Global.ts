@@ -180,10 +180,10 @@ export default css`
   }
 
   blockquote {
-    margin: 60px 0;
-    padding: 30px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    margin: 40px 0;
+    padding: 20px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 
     p {
       font-size: 1.5rem;

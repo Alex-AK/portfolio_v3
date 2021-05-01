@@ -4,7 +4,7 @@ title: "Now | Alex King"
 
 # **Now** 😷
 
-**Last updated:** February 28, 2021
+**Last updated:** May 1, 2021
 
 ## What's this?
 
@@ -12,13 +12,13 @@ Learn more <a href="https://nownownow.com/about" target="_blank" rel="noopener n
 
 ## Development
 
-Continuing to develop a <a href="https://getcampr.com" target="_blank" rel="noopener noreferrer">personal passion project</a> to help campers organize gear, plan trips, collaborate with friends, and finalize upcoming adventures with ease. 🏕
+Slowly expanding on a <a href="https://getcampr.com" target="_blank" rel="noopener noreferrer">personal passion project</a> to help campers organize gear, plan trips, collaborate with friends, and finalize upcoming adventures with ease. 🏕
 
 And planning some spring / summer adventures, road trips, bike rides, backpacking trips, and hikes.
 
 ## Currently Reading
 
-<a href="https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell?ac=1&from_search=true&qid=RnGXmyhHyt&rank=1" target="_blank" rel="noopener noreferrer">Jonathan Strange & Mr Norrell</a>
+<a href="https://weshouldgettogether.com/books" target="_blank" rel="noopener noreferrer">We Should Get Together</a>
 
 ## Recently Finished Reading
 
@@ -37,7 +37,9 @@ And planning some spring / summer adventures, road trips, bike rides, backpackin
 
 ## Currently Drinking ☕️
 
-Olympia Coffee Roaster - <a href="https://www.gocoffeego.com/products/Olympia-Coffee/Colombia-San-Sebastian-Reserva-2573.html" target="_blank" rel="noopener noreferrer">Colombia San Sebastian Reserva</a>
+QED Coffee Roaster - <a href="https://www.qedcoffee.com/product-page/colombia-las-brisas" target="_blank" rel="noopener noreferrer">The Median</a>
+
+<!-- Olympia Coffee Roaster - <a href="https://www.gocoffeego.com/products/Olympia-Coffee/Colombia-San-Sebastian-Reserva-2573.html" target="_blank" rel="noopener noreferrer">Colombia San Sebastian Reserva</a> -->
 
 <!-- Olympia Coffee Roaster - <a href="https://www.olympiacoffee.com/collections/coffee/products/holiday-blend-1" target="_blank" rel="noopener noreferrer">Holiday Blend</a> -->
 <!-- Heart Coffee Roasters - <a href="https://www.heartroasters.com/collections/all/products/colombia-la-morelia" target="_blank" rel="noopener noreferrer">Colombia La Morelia</a> -->
@@ -48,8 +50,9 @@ Olympia Coffee Roaster - <a href="https://www.gocoffeego.com/products/Olympia-Co
 
 Since reading <a href="https://www.amazon.com/Artists-Way-25th-Anniversary/dp/0143129252" target="_blank" rel="noopener noreferrer">The Artist's Way</a> I have been prioritizing creative exploration. Here are a few things I've been up to in my free time.
 
-- **Cooking** - mostly cooking winter meals like bisques and stews. And doing some pickling and fermentation on the side.
-- **Drawing** - working through a 30 day drawing workshop for practice and fun.
+- **Cooking** - Continuing to ferment and try new recipes. Finding a balance of new recipes and comforting staples.
+- **Biking** - exploring bike part upgrades for easier bike touring and bike camping.
+- **Puzzle** - working through a 1000 piece puzzle of a mountain range during sunset... the whole puzzle is a shade of one color.
 
 <!-- - **Knitting / Crocheting** - I recently finished my <a href="https://www.ravelry.com/patterns/library/simple-yet-effective" target="_blank" rel="noopener noreferrer">circular scarf with alternating knit patterns</a> after a few sample squares. Now I'm trying out a few crochet squares to see how it compares to knitting. -->
 
