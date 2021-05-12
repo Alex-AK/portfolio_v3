@@ -6,7 +6,7 @@ title: "About Me | Alex King"
 
 **Last updated:** May 1, 2021
 
-<img src="assets/alex-king-software-developer-photo.jpg" alt="Alex King Profile Image, Software Developer" />
+<img src="assets/alex-king-software-developer-photo.jpg" alt="Alex King Profile Image, Software Engineer" />
 
 ## Location
 
@@ -75,7 +75,7 @@ I'm interest in working on building ethical and altruistic products. Here are so
 
 ## Personal
 
-I'm introverted at heart <a href="https://www.16personalities.com/infj-personality" target="_blank" rel="noopener noreferrer">(INFJ)</a> and enjoy connecting with others. As an ex biologist / yoga instructor turned software developer, I think it's clear that dachshunds are by far the best dogs.
+I'm introverted at heart <a href="https://www.16personalities.com/infj-personality" target="_blank" rel="noopener noreferrer">(INFJ)</a> and enjoy connecting with others. As an ex biologist / yoga instructor turned software engineer, I think it's clear that dachshunds are by far the best dogs.
 
 Want to know want to know what I'm up to [now?](/now)
 

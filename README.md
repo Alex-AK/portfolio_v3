@@ -1,4 +1,4 @@
-# Personal Portfolio (v3) for Alex King | Software Developer
+# Personal Portfolio (v3) for Alex King | Software Engineer
 
 ## Note: Version 3 of my portfolio is currently in development
 
