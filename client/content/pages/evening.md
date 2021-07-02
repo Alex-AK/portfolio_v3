@@ -9,14 +9,10 @@ An Evening is a collection of virtual and Seattle based events to help connect f
 
 The idea came when a friend shared a story of homemade calzone night - where friends, neighbors, and acquaintances would come together monthly to share an evening together.
 
-In response to health precautions, in person events are currently postponed until it is safe to gather.
+<br/>
 
-## Events.
+#### [An Evening Out](/evening/out) (outdoor events)
 
-<!-- #### [An Evening, Home.](/evening/out) -->
+#### [An Evening Study](/evening/study) (virtual event)
 
-#### [An Evening Study.](/evening/study) (virtual)
-
-#### [An Evening Home.](/evening/home) (postponed)
-
-#### An Evening Out. (coming soon)
+#### [An Evening Home](/evening/home) (postponed)

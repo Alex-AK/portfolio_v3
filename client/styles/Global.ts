@@ -59,7 +59,7 @@ export default css`
 
   h2,
   legend {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-top: 25px;
     line-height: 2;
 
