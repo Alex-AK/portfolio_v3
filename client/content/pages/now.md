@@ -4,7 +4,7 @@ title: "Now | Alex King"
 
 # **Now** 😷
 
-**Last updated:** May 1, 2021
+**Last updated:** Sept 8, 2021
 
 ## What's this?
 
@@ -18,16 +18,15 @@ And planning some spring / summer adventures, road trips, bike rides, backpackin
 
 ## Currently Reading
 
-<a href="https://weshouldgettogether.com/books" target="_blank" rel="noopener noreferrer">We Should Get Together</a>
+<a href="https://www.goodreads.com/book/show/29868587-birds-art-life" target="_blank" rel="noopener noreferrer">Birds Art Life</a>
 
 ## Recently Finished Reading
 
 <a href="https://www.goodreads.com/book/show/52578297-the-midnight-library?from_search=true&from_srp=true&qid=zOsXOj5LVg&rank=1" target="_blank" rel="noopener noreferrer">The Midnight Library</a>
 
-<a href="https://www.goodreads.com/book/show/52129515-untamed?from_search=true&from_srp=true&qid=WuCUB76crA&rank=1" target="_blank" rel="noopener noreferrer">Untamed</a>
-
 <a href="https://en.wikipedia.org/wiki/The_Murderbot_Diaries" target="_blank" rel="noopener noreferrer">The Murderbot Diaries</a>
 
+<!-- <a href="https://www.goodreads.com/book/show/52129515-untamed?from_search=true&from_srp=true&qid=WuCUB76crA&rank=1" target="_blank" rel="noopener noreferrer">Untamed</a> -->
 <!-- <a href="https://www.effectiveengineer.com/book" target="_blank" rel="noopener noreferrer">The Effective Engineer</a> -->
 <!-- <a href="https://www.amazon.com/Your-Money-Life-Transforming-Relationship-ebook/dp/B0052MD8VO/ref=sr_1_1?dchild=1&keywords=your+money+or+your+life&qid=1595821865&s=books&sr=1-1" target="_blank" rel="noopener noreferrer">Your Money or Your Life</a> -->
 
@@ -37,7 +36,9 @@ And planning some spring / summer adventures, road trips, bike rides, backpackin
 
 ## Currently Drinking ☕️
 
-QED Coffee Roaster - <a href="https://www.qedcoffee.com/product-page/colombia-las-brisas" target="_blank" rel="noopener noreferrer">The Median</a>
+Olympia Coffee Roaster - <a href="https://www.gocoffeego.com/products/Olympia-Coffee/El-Salvador-La-Palma-8544.html" target="_blank" rel="noopener noreferrer">El Salvador La Palma</a>
+
+<!-- QED Coffee Roaster - <a href="https://www.qedcoffee.com/product-page/colombia-las-brisas" target="_blank" rel="noopener noreferrer">The Median</a> -->
 
 <!-- Olympia Coffee Roaster - <a href="https://www.gocoffeego.com/products/Olympia-Coffee/Colombia-San-Sebastian-Reserva-2573.html" target="_blank" rel="noopener noreferrer">Colombia San Sebastian Reserva</a> -->
 
@@ -50,9 +51,10 @@ QED Coffee Roaster - <a href="https://www.qedcoffee.com/product-page/colombia-la
 
 Since reading <a href="https://www.amazon.com/Artists-Way-25th-Anniversary/dp/0143129252" target="_blank" rel="noopener noreferrer">The Artist's Way</a> I have been prioritizing creative exploration. Here are a few things I've been up to in my free time.
 
-- **Cooking** - Continuing to ferment and try new recipes. Finding a balance of new recipes and comforting staples.
-- **Biking** - exploring bike part upgrades for easier bike touring and bike camping.
-- **Puzzle** - working through a 1000 piece puzzle of a mountain range during sunset... the whole puzzle is a shade of one color.
+- **Cooking** - continuing to ferment and try new recipes. Finding a balance of new recipes and comforting staples.
+- **Biking** - exploring a new bike build for easier bike touring, bike camping, and gravel riding.
+- **Road Trips** - exploring purchasing a used car to convert into a mini camper for road trips and adventures.
+<!-- - **Puzzle** - working through a 1000 piece puzzle of a mountain range during sunset... the whole puzzle is a shade of one color. -->
 
 <!-- - **Knitting / Crocheting** - I recently finished my <a href="https://www.ravelry.com/patterns/library/simple-yet-effective" target="_blank" rel="noopener noreferrer">circular scarf with alternating knit patterns</a> after a few sample squares. Now I'm trying out a few crochet squares to see how it compares to knitting. -->
 
