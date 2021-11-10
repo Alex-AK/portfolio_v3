@@ -180,8 +180,13 @@ export default css`
   }
 
   blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     margin: 40px 0;
-    padding: 20px;
+    min-height: 182px;
+    padding: 40px 20px 50px 20px;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
 

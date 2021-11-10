@@ -6,6 +6,29 @@ title: "Projects | Alex King"
 
 <div class="project">
   <div class="project-images">
+    <img src="/projects/desktop/topia.jpg" alt="" class="desktop" />
+    <!-- <img src="/projects/mobile/campr.png" alt="" class="mobile"/> -->
+  </div>
+
+  <div class='project-content'>
+
+## Topia
+
+Your digital space to connect face-to-face in a fun & more natural way. With Topia, you can create a fully customizable digital space to explore with friends, old and new.
+
+With spatial audio & video, it feel like being in-person. Easily move in and out of group conversations. Topia empowers you to make new memories and build more meaningful relationships.
+
+Topia combines playful world-building & encrypted video chat. It works on every device & browser. Create your own worlds, customize endlessly, host 10k+ people at once, buy/sell art, earn commissions, and more. Bring people together with Topia.
+
+<a href="https://topia.io" target="_blank" rel="noopener noreferrer">View Site</a>
+
+<!-- [Read More](/writing/campr) -->
+
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-images">
     <img src="/projects/desktop/brainsquall.jpg" alt="" class="desktop" />
     <img src="/projects/mobile/brainsquall.png" alt="" class="mobile"/>
   </div>
@@ -50,7 +73,7 @@ A camping and backpacking tool for helping adventurers organize gear, plan trips
   </div>
 </div>
 
-<div class="project">
+<!-- <div class="project">
   <div class="project-images">
     <img src="/projects/desktop/triohub.jpg" alt="" class="desktop" />
     <img src="/projects/mobile/triohub.png" alt="" class="mobile"/>
@@ -70,9 +93,9 @@ A rental organization web and mobile application allowing users track potential 
 <!-- [Read More](/writing/triohub) -->
 
   </div>
-</div>
+</div> -->
 
-<div class="project">
+<!-- <div class="project">
   <div class="project-images">
     <img src="/projects/desktop/kingston.jpg" alt="" class="desktop" />
     <img src="/projects/mobile/kingston.png" alt="" class="mobile"/>
@@ -92,9 +115,9 @@ A custom developed performant e-commerce platform for men's high fashion product
 <!-- [Read More](/writing/kingston-co) -->
 
   </div>
-</div>
+</div> -->
 
-<div class="project">
+<!-- <div class="project">
   <div class="project-images">
     <img src="/projects/desktop/trainingbot.jpg" alt="" class="desktop" />
     <img src="/projects/mobile/trainingbot.png" alt="" class="mobile"/>
@@ -115,8 +138,9 @@ A web application allowing training managers to send employees automated text me
 [Read More](/writing/training-bot)
 
   </div>
-</div>
-<div class="project">
+</div> -->
+
+<!-- <div class="project">
   <div class="project-images">
     <img src="/projects/desktop/line.jpg" alt="" class="desktop" />
     <img src="/projects/mobile/line.png" alt="" class="mobile"/>
@@ -135,6 +159,6 @@ An e-commerce site built with SquareSpace to meet client requirements of being a
 [Read More](/writing/line)
 
   </div>
-</div>
+</div> -->
 
 #### <br/> Want to connect? [I'd love to hear from you.](/contact)
