@@ -7,7 +7,7 @@ tags: newsletter
 
 ## Introduction
 
-Hello, I’m Alex - a software developer, coffee enthusiast, and mellow natured adventure seeker. If you choose to subscribe to my newsletter, here’s what you can expect from me.
+Hello, I’m Alex - a software engineer, coffee enthusiast, and mellow natured adventure seeker. If you choose to subscribe to my newsletter, here’s what you can expect from me.
 
 ## Overview
 

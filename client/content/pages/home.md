@@ -1,10 +1,19 @@
 ---
-title: "Alex King | Software Developer"
-description: "I'm Seattle based freelance software developer with a love for coffee, pleasant user experience, and intentionality."
+title: "An Evening Home | Alex King"
+description: "An Evening Home helps connect friends, neighbors, and acquaintances."
 ---
 
-# **Alex King** | Software Developer 👨‍💻
+# **An Evening** Home.
 
-#### I'm a Seattle based freelance software developer with a love for coffee, pleasant user experience, and intentionality. See what I'm up to [now](/now), read [about me](/about), or take a look at my [projects](/projects) and [writing](/writing). If you'd like to work with me [start here](/about).
+<br/>
 
-#### [Looking for mentorship?](/contact)
+The idea for An Evening Home came when a friend shared a story of homemade calzone night - where friends, neighbors, and acquaintances would come together monthly and share an evening together.
+
+## The Plan.
+
+An Evening Home will be hosted one weekend evening a month at my apartment. There will be food, drinks, boardgames, mario cart tournaments, cooking nights, movie nights, and conversation. Upon request, I will send you event information with directions the week of.
+
+**This event is currently postponed until it is safe to gather in person.**
+<br/>
+
+#### [Return to Events](/evening)

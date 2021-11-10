@@ -89,7 +89,7 @@ const Styles = styled.main`
 `;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const pageData = await getPageData("home");
+  const pageData = await getPageData("index");
 
   return { props: { pageData } };
 };

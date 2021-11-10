@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useRouter } from "next/router";
 
 // components
 import Link from "components/General/Link";
@@ -8,10 +9,19 @@ import { colors } from "styles/theme";
 
 interface Props {} // eslint-disable-line
 
-const menuItems = ["home", "projects", "writing", "about", "now", "contact"];
+const menuItems = [
+  "home",
+  "projects",
+  "writing",
+  "about",
+  "now",
+  "evening",
+  "contact",
+];
 
 const MainNavigation = ({}: Props) => {
-  const { pathname } = window.location;
+  const { pathname } = useRouter();
+
   // hide main navigation on homepage, in favor of buttons
   if (pathname === "/") return <div style={{ height: 100 }} />;
 

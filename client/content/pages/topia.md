@@ -1,6 +1,6 @@
 ---
 title: "Hello, Topia!"
-description: "I'm Seattle based freelance software developer with a love for coffee, pleasant user experience, and intentionality."
+description: "I'm Seattle based freelance software engineer with a love for coffee, pleasant user experience, and intentionality."
 ---
 
 # **Hello**, Daniel and Chris of Topia!
@@ -9,7 +9,7 @@ My name is <a href="/about" target="_blank" rel="noopener noreferrer">Alex King<
 
 Immediately upon joining your campfire in Topia (/hunters), I felt a profound sense of belonging and synchronicity, both of which prompted me to reach out.
 
-Topia's mission to bring people together in shared experience, through a creative world building platform, aligns with my creative goals as well as my values as a software developer.
+Topia's mission to bring people together in shared experience, through a creative world building platform, aligns with my creative goals as well as my values as a software engineer.
 
 After connecting at the campfire, I believe my skills would add value to Topia's vision and upcoming interface development, world building user experience expansions, and permissions work.
 
@@ -22,7 +22,7 @@ Cheers
 <br/>
 <!-- Check out more about my [values here](/about#values). -->
 
-## **<a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">BrainSquall</a>** <span>**Lead Software Developer** | Remote | Sept 2019 - December 2020</span>
+## **<a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">BrainSquall</a>** <span>**Lead Software Engineer** | Remote | Sept 2019 - December 2020</span>
 
 An enterprise sales tool for keeping context in un-structured and linear data.
 
@@ -36,7 +36,7 @@ An enterprise sales tool for keeping context in un-structured and linear data.
 ### Company Contribution
 
 - Established engineering guidelines and development workflow including version control, continuous integration, pipeline config, and code review practices.
-- Helped prioritize features based on stakeholder requests, design interests, and product needs (stability, security, performance) while leading a team of three junior software developer interns.
+- Helped prioritize features based on stakeholder requests, design interests, and product needs (stability, security, performance) while leading a team of three junior software engineer interns.
 
 ### Tools Used
 
