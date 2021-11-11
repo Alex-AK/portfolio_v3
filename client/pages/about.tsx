@@ -20,7 +20,7 @@ const About = ({ pageData }: Props) => {
   const { title, contentHtml } = pageData;
 
   useEffect(() => {
-    render(<Carousel />, document.getElementById("carousel-wrapper"));
+    // render(<Carousel />, document.getElementById("carousel-wrapper"));
   }, []);
 
   return (

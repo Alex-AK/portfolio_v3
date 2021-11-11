@@ -16,6 +16,9 @@
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet",
     "pretest": "yarn lint"
   },
+  "engines": {
+    "node": "16.13"
+  },
   "dependencies": {
     "date-fns": "^2.15.0",
     "gray-matter": "^4.0.2",
