@@ -35,7 +35,7 @@ const Home = ({ pageData }: Props) => {
         <div>
           <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
-          {["projects", "writing", "about", "now", "contact"].map((button) => {
+          {["projects", "about", "contact"].map((button) => {
             return (
               <Button key={button} text={button} redirect={`/${button}`} />
             );

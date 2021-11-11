@@ -1,5 +1,10 @@
+import { useEffect } from "react";
 import Head from "next/head";
 import styled from "styled-components";
+import { render } from "react-dom";
+
+// components
+import Carousel from "components/General/Carousel";
 
 // util
 import { getPageData } from "util/fetchMarkdown";
@@ -13,6 +18,11 @@ interface Props {
 
 const About = ({ pageData }: Props) => {
   const { title, contentHtml } = pageData;
+
+  useEffect(() => {
+    // render(<Carousel />, document.getElementById("carousel-wrapper"));
+  }, []);
+
   return (
     <>
       <Head>
