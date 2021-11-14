@@ -1,14 +1,30 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { remark } from "remark";
-import html from "remark-html";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
+import rehypeRaw from "rehype-raw";
+import rehypeFormat from "rehype-format";
 
 // types
 import { PostDataProps } from "types";
 
 const postsDirectory = path.join(process.cwd(), "content/posts");
 const pageDirectory = path.join(process.cwd(), "content/pages");
+
+const getProcessedContent = (content) => {
+  const processedContent = unified()
+    .use(remarkParse)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeRaw)
+    .use(rehypeFormat)
+    .use(rehypeStringify)
+    .process(content);
+
+  return processedContent;
+};
 
 export const getSortedPostsData = () => {
   // Get file names under /posts
@@ -54,9 +70,7 @@ export const getPostData = async (id: string | string[]) => {
   const matterResult = matter(fileContents);
 
   // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
+  const processedContent = await getProcessedContent(matterResult.content);
 
   const contentHtml = processedContent.toString();
 
@@ -70,12 +84,9 @@ export const getPageData = async (page: string) => {
 
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);
-  console.log(matterResult.content);
 
   // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
+  const processedContent = await getProcessedContent(matterResult.content);
 
   const contentHtml = processedContent.toString();
 

@@ -16,7 +16,7 @@ Raised in Northern Nevada 🌄
 
 Living in Seattle 🌇
 
-Working remotely with [Topia](https://topia.io/) 👨‍💻
+Working remotely with <a href="https://topia.io/" target="_blank" rel="noopener noreferrer">Topia</a> 👨‍💻
 
 ## Services
 
@@ -26,7 +26,7 @@ As a software engineer, my goal is to help you achieve yours - I'm here to plan,
 
 <!-- If you're looking to plan or prototype a new project, working on wireframes or designs, building an minimum viable product (MVP), or expanding an existing product, [let's talk](/contact)! -->
 
-<!-- <div id="carousel-wrapper" style="max-width: 650px"></div> -->
+<div id="carousel-wrapper" style="max-width: 650px"></div>
 
 <!-- ### **Previous Work** -->
 

@@ -15,7 +15,7 @@ title: "Projects | Alex King"
 
 Your digital space to connect face-to-face in a fun & more natural way. Topia combines playful world-building & encrypted video chat. Create your own worlds, customize endlessly, host 10k+ people at once, buy/sell art, earn commissions, and more. It works on every device & browser.
 
-[View Site](https://topia.io)
+<a href="https://topia.io/" target="_blank" rel="noopener noreferrer">Visit Site</a>
 
   </div>
 </div>
@@ -37,10 +37,10 @@ A web application that combines a mind map, outline, and table to gather, organi
 - Maintained approximately 80% server and client automated test coverage with Jest and React Testing Library.
 - Architected and contributed to a rapidly expanding client-side React feature set with modular context state management.
 
-[Visit Site](https://brainsquall.co)
+  <a href="https://www.brainsquall.co/" target="_blank" rel="noopener noreferrer">Visit Site</a>
 
+    </div>
   </div>
-</div>
 
 <div class="project">
   <div class="project-images">
@@ -57,7 +57,7 @@ A camping and backpacking tool for helping adventurers organize gear, plan trips
 - Established NextJS/TypeScript serverless graphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
 - Implemented a Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
 
-[Visit Site](https://getcampr.com)
+<a href="https://getcampr.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
 
   </div>
 </div>
