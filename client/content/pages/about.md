@@ -2,11 +2,11 @@
 title: "About Me | Alex King"
 ---
 
+![Alex King Profile Image, Software Engineer](assets/alex-king-software-developer-photo.jpg)
+
 # **About Me** | Alex King 👋
 
 **Last updated:** November 9, 2021
-
-<img src="assets/alex-king-software-developer-photo.jpg" alt="Alex King Profile Image, Software Engineer" />
 
 ## Location
 
@@ -16,7 +16,7 @@ Raised in Northern Nevada 🌄
 
 Living in Seattle 🌇
 
-Working remotely with <a href="https://topia.io/" target="_blank" rel="noopener noreferrer">Topia</a> 👨‍💻
+Working remotely with [Topia](https://topia.io/) 👨‍💻
 
 ## Services
 
@@ -26,7 +26,7 @@ As a software engineer, my goal is to help you achieve yours - I'm here to plan,
 
 <!-- If you're looking to plan or prototype a new project, working on wireframes or designs, building an minimum viable product (MVP), or expanding an existing product, [let's talk](/contact)! -->
 
-<div id="carousel-wrapper" style="max-width: 650px"></div>
+<!-- <div id="carousel-wrapper" style="max-width: 650px"></div> -->
 
 <!-- ### **Previous Work** -->
 
@@ -37,8 +37,6 @@ As a software engineer, my goal is to help you achieve yours - I'm here to plan,
 ## Values
 
 I'm interest in working on building ethical and altruistic products. Here are some values that align with my work.
-
-<a id="values" href="#values" ></a>
 
 - Mission driven organizations and products
 - Strong communication and transparency
@@ -55,6 +53,6 @@ I'm interest in working on building ethical and altruistic products. Here are so
 
 I'm introverted at heart <a href="https://www.16personalities.com/infj-personality" target="_blank" rel="noopener noreferrer">(INFJ)</a> and enjoy connecting with others. As an ex biologist / yoga instructor turned software engineer, I think it's clear that dachshunds are by far the best dogs.
 
-Want to know want to know what I'm up to [now?](/now)
+<!-- Want to know want to know what I'm up to [now?](/now) -->
 
 #### <br/> If you're reading this, [I'd love to hear from you.](/contact)
