@@ -45,12 +45,12 @@ export default css`
   textarea,
   blockquote {
     max-width: 650px;
+    line-height: 1.6;
   }
 
   h1 {
     font-size: 3rem;
     letter-spacing: 1.25px;
-    line-height: 2.2;
 
     @media (max-width: 800px) {
       font-size: 2.6rem;
@@ -60,8 +60,8 @@ export default css`
   h2,
   legend {
     font-size: 1.8rem;
-    margin-top: 25px;
-    line-height: 2;
+    margin-top: 30px;
+    margin-bottom: 10px;
 
     @media (max-width: 800px) {
       font-size: 2rem;
@@ -72,7 +72,6 @@ export default css`
     font-size: 1.8rem;
     margin-top: 10px;
     padding-bottom: 10px;
-    line-height: 1.8;
 
     @media (max-width: 800px) {
       font-size: 1.6rem;
@@ -83,7 +82,6 @@ export default css`
     font-size: 1.6rem;
     margin-top: 5px;
     letter-spacing: 1px;
-    line-height: 1.6;
 
     @media (max-width: 800px) {
       font-size: 1.4rem;
@@ -93,13 +91,11 @@ export default css`
   h5 {
     font-size: 1.4rem;
     letter-spacing: 1px;
-    line-height: 1.2;
   }
 
   h6 {
     font-size: 1.2rem;
     letter-spacing: 1px;
-    line-height: 1;
   }
 
   strong {
@@ -117,7 +113,6 @@ export default css`
   a,
   li {
     font-size: 1.6rem;
-    line-height: 1.2;
     letter-spacing: 0.5px;
     font-family: inherit;
 
@@ -128,7 +123,6 @@ export default css`
 
   p,
   label {
-    line-height: 1.5;
     margin-bottom: 10px;
 
     @media (max-width: 800px) {
@@ -162,7 +156,6 @@ export default css`
 
   input,
   textarea {
-    line-height: 1.5;
     letter-spacing: 0.6px;
     border: none;
     background: white;

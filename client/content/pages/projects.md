@@ -7,22 +7,15 @@ title: "Projects | Alex King"
 <div class="project">
   <div class="project-images">
     <img src="/projects/desktop/topia.jpg" alt="" class="desktop" />
-    <!-- <img src="/projects/mobile/campr.png" alt="" class="mobile"/> -->
   </div>
 
   <div class='project-content'>
 
 ## Topia
 
-Your digital space to connect face-to-face in a fun & more natural way. With Topia, you can create a fully customizable digital space to explore with friends, old and new.
+Your digital space to connect face-to-face in a fun & more natural way. Topia combines playful world-building & encrypted video chat. Create your own worlds, customize endlessly, host 10k+ people at once, buy/sell art, earn commissions, and more. It works on every device & browser.
 
-With spatial audio & video, it feel like being in-person. Easily move in and out of group conversations. Topia empowers you to make new memories and build more meaningful relationships.
-
-Topia combines playful world-building & encrypted video chat. It works on every device & browser. Create your own worlds, customize endlessly, host 10k+ people at once, buy/sell art, earn commissions, and more. Bring people together with Topia.
-
-<a href="https://topia.io" target="_blank" rel="noopener noreferrer">View Site</a>
-
-<!-- [Read More](/writing/campr) -->
+[View Site](https://topia.io)
 
   </div>
 </div>
@@ -44,9 +37,7 @@ A web application that combines a mind map, outline, and table to gather, organi
 - Maintained approximately 80% server and client automated test coverage with Jest and React Testing Library.
 - Architected and contributed to a rapidly expanding client-side React feature set with modular context state management.
 
-<a href="https://brainsquall.co" target="_blank" rel="noopener noreferrer">View Site</a>
-
-<!-- [Read More](/writing/brainsquall) -->
+[Visit Site](https://brainsquall.co)
 
   </div>
 </div>
@@ -66,9 +57,7 @@ A camping and backpacking tool for helping adventurers organize gear, plan trips
 - Established NextJS/TypeScript serverless graphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
 - Implemented a Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
 
-<a href="https://getcampr.com/" target="_blank" rel="noopener noreferrer">View Site</a>
-
-<!-- [Read More](/writing/campr) -->
+[Visit Site](https://getcampr.com)
 
   </div>
 </div>
@@ -92,8 +81,8 @@ A rental organization web and mobile application allowing users track potential 
 
 <!-- [Read More](/writing/triohub) -->
 
-  </div>
-</div> -->
+  <!-- </div> -->
+<!-- </div>  -->
 
 <!-- <div class="project">
   <div class="project-images">
@@ -114,8 +103,8 @@ A custom developed performant e-commerce platform for men's high fashion product
 
 <!-- [Read More](/writing/kingston-co) -->
 
-  </div>
-</div> -->
+  <!-- </div> -->
+<!-- </div> -->
 
 <!-- <div class="project">
   <div class="project-images">
@@ -161,4 +150,4 @@ An e-commerce site built with SquareSpace to meet client requirements of being a
   </div>
 </div> -->
 
-#### <br/> Want to connect? [I'd love to hear from you.](/contact)
+#### Want to connect? [I'd love to hear from you.](/contact)

@@ -20,6 +20,10 @@ const About = ({ pageData }: Props) => {
   const { title, contentHtml } = pageData;
 
   useEffect(() => {
+    // const node = document.querySelectorAll("strong")[2].parentElement;
+    // const div = document.createElement("div");
+    // div.id = "carousel-wrapper";
+    // node.append(div);
     // render(<Carousel />, document.getElementById("carousel-wrapper"));
   }, []);
 
@@ -41,15 +45,13 @@ export default About;
 const Styles = styled.main`
   img {
     border-radius: 50%;
-    width: 250px;
-    margin: 0 0 20px 20px;
+    width: 220px;
+    margin-top: 50px;
     float: right;
 
     @media (max-width: 600px) {
-      width: 220px;
-      min-height: 220px;
       float: none;
-      margin: 25px 0 0;
+      margin: 0 0 20px 0;
     }
   }
 `;
