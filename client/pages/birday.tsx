@@ -11,7 +11,7 @@ interface Props {
   pageData: PageDataProps;
 }
 
-const Birthday = ({ pageData }: Props) => {
+const Birday = ({ pageData }: Props) => {
   const { title, contentHtml } = pageData;
   return (
     <>
@@ -26,7 +26,7 @@ const Birthday = ({ pageData }: Props) => {
   );
 };
 
-export default Birthday;
+export default Birday;
 
 const Styles = styled.main``;
 
