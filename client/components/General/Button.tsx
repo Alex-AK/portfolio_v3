@@ -24,28 +24,17 @@ const Button = ({
   handleClick,
   redirect,
 }: Props) => {
-  if (redirect)
-    return (
-      <Link href={redirect}>
-        <a tabIndex={-1} className="no-styles">
-          <Styles
-            data-testid={testId}
-            className={className}
-            type={type}
-            onClick={handleClick}
-          >
-            {text}
-          </Styles>
-        </a>
-      </Link>
-    );
+  const handleClickOrRedirect = () => {
+    if (redirect) return window.open(redirect, "_self");
+    else handleClick && handleClick();
+  };
 
   return (
     <Styles
       data-testid={testId}
       className={className}
       type={type}
-      onClick={handleClick}
+      onClick={handleClickOrRedirect}
     >
       {text}
     </Styles>
@@ -74,6 +63,8 @@ const Styles = styled.button`
   background: ${colors.lightYellow};
   border: solid 1px ${colors.lightYellow};
   border-radius: 4px;
+
+  /* margin-right: 12px; */
 
   :hover {
     background: ${colors.yellow};

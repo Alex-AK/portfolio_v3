@@ -34,10 +34,13 @@ const Link = ({
   }
 
   return (
-    <NextLink href={href} as={as}>
-      <a data-testid={testId} className={`${className} hyperlink`}>
-        {children || text}
-      </a>
+    <NextLink
+      href={href}
+      as={as}
+      data-testid={testId}
+      className={`${className} hyperlink`}
+    >
+      {children || text}
     </NextLink>
   );
 };

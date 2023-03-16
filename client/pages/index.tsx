@@ -37,7 +37,12 @@ const Home = ({ pageData }: Props) => {
 
           {["projects", "about", "contact"].map((button) => {
             return (
-              <Button key={button} text={button} redirect={`/${button}`} />
+              <Button
+                key={button}
+                text={button}
+                redirect={`/${button}`}
+                className="no-styles"
+              />
             );
           })}
         </div>
