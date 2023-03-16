@@ -17,7 +17,7 @@
     "pretest": "npm run lint"
   },
   "engines": {
-    "node": "18.14"
+    "node": "16.12.2"
   },
   "dependencies": {
     "date-fns": "^2.15.0",
