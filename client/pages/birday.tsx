@@ -31,7 +31,7 @@ export default Birthday;
 const Styles = styled.main``;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const pageData = await getPageData("birthday");
+  const pageData = await getPageData("birday");
 
   return { props: { pageData } };
 };
