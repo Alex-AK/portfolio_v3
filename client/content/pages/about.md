@@ -6,7 +6,7 @@ title: "About Me | Alex King"
 
 # **About Me** | Alex King 👋
 
-**Last updated:** November 9, 2021
+**Last updated:** April 24, 2023
 
 ## Location
 
@@ -20,9 +20,9 @@ Working remotely with <a href="https://topia.io/" target="_blank" rel="noopener 
 
 ## Services
 
-As a software engineer, my goal is to help you achieve yours - I'm here to plan, build, and deliver quality software and websites with an emphasis on achieving business goals and serving your customers. I specialize in building simple, ethical, accessible, and performant web applications.
+As a software engineer, my goal is to help you achieve yours - I'm here to plan, build, and deliver quality software with an emphasis on achieving business goals and serving your customers. I specialize in building simple, ethical, accessible, and performant web applications.
 
-**I'm not currently available for additional work.**
+<!-- **I'm not currently available for additional work.** -->
 
 <!-- If you're looking to plan or prototype a new project, working on wireframes or designs, building an minimum viable product (MVP), or expanding an existing product, [let's talk](/contact)! -->
 
