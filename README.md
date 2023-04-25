@@ -1,7 +1,5 @@
 # Personal Portfolio (v3) for Alex King | Software Engineer
 
-## Note: Version 3 of my portfolio is currently in development
-
 #### Introduction
 
 My portfolio began on a quiet Sunday morning at my local coffee shop. The aim was to make a stylistically unique and calm website to communicate my interests, values, as well as technical skills and offerings to new and existing clients.
