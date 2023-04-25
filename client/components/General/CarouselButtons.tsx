@@ -17,7 +17,7 @@ const CarouselButtons = ({ step }: Props) => {
         paddingBottom: "20px",
       }}
     >
-      {[0, 1, 2].map((index) => (
+      {[0, 1, 2, 3, 4].map((index) => (
         <span
           key={index}
           style={{

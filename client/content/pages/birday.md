@@ -1,5 +1,5 @@
 ---
-title: "Alex King | Birthday"
+title: "Alex King | Birday"
 description: "You are invited to my 35rd birthday party!"
 ---
 
