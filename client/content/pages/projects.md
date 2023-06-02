@@ -61,7 +61,7 @@ BrainSquall combines a mind map, outline, and table to gather, organize, and sha
 
 ## Campr
 
-A camping and backpacking tool for helping adventurers organize gear, plan trips, and inviting friends to collaborate.
+Campr is a camping and backpacking tool for helping adventurers organize gear, plan trips, and inviting friends to collaborate.
 
 - 🚀 Established NextJS/TypeScript serverless graphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
 
