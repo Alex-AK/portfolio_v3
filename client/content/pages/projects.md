@@ -13,7 +13,13 @@ title: "Projects | Alex King"
 
 ## Topia
 
-Your digital space to connect face-to-face in a fun & more natural way. Topia combines playful world-building & encrypted video chat. Create your own worlds, customize endlessly, host 10k+ people at once, buy/sell art, earn commissions, and more. It works on every device & browser.
+Topia combines playful world-building, encrypted video chat, and easily deployable infrastructure. Bring people together to work, learn, and collaborate in your real-time experience platform.
+
+- 🔠 Led the development of a game-changing, WCAG compliant component library, ensuring seamless and accessible user experiences across multiple products, while maintaining efficient development cycles.
+
+- ☁️ Played a vital role in architecting and scaling an awe-inspiring browser-based metaverse application, unlocking a world of magic and wonder for users.
+
+- 📧 Developed a feature-rich real-time messaging system, enabling secure and interactive user connectivity and collaboration with direct messaging, group chats, and robust moderation tools.
 
 <a href="https://topia.io/" target="_blank" rel="noopener noreferrer">Visit Site</a>
 
@@ -30,16 +36,19 @@ Your digital space to connect face-to-face in a fun & more natural way. Topia co
 
 ## BrainSquall
 
-A web application that combines a mind map, outline, and table to gather, organize, and share complex ideas.
+BrainSquall combines a mind map, outline, and table to gather, organize, and share complex ideas.
 
-- Established and maintain engineering guidelines and development workflow including version control, continuous integration, pipeline config, and code review practices.
-- Delivered a PostgreSQL version-controlled database with secure production level RESTful API using Node.
-- Maintained approximately 80% server and client automated test coverage with Jest and React Testing Library.
-- Architected and contributed to a rapidly expanding client-side React feature set with modular context state management.
+- 📚 Established and maintain engineering guidelines and development workflow, including version control, continuous integration, pipeline config, and code review practices.
 
-  <a href="https://www.brainsquall.co/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+- 🛠️ Delivered a PostgreSQL version-controlled database with secure production level RESTful API using Node, ensuring data integrity and reliability.
 
-    </div>
+- 🤖 Maintained 80% server and client automated test coverage using Jest and React Testing Library, ensuring the stability and quality of the application.
+
+- 🏗️ Architected and contributed to a rapidly expanding client-side React feature set, implementing modular context state management for enhanced flexibility and scalability.
+
+<a href="https://www.brainsquall.co/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+
+  </div>
   </div>
 
 <div class="project">
@@ -54,8 +63,9 @@ A web application that combines a mind map, outline, and table to gather, organi
 
 A camping and backpacking tool for helping adventurers organize gear, plan trips, and inviting friends to collaborate.
 
-- Established NextJS/TypeScript serverless graphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
-- Implemented a Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
+- 🚀 Established NextJS/TypeScript serverless graphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
+
+- 🐳 Implemented a Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
 
 <a href="https://getcampr.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
 
