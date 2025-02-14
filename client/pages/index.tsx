@@ -27,6 +27,11 @@ const Home = ({ pageData }: Props) => {
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content={description} />
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="4ec75dff-25bd-4030-a8e3-2bc92191b7a2"
+        ></script>
       </Head>
 
       <Styles id="page">
