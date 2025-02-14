@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 // components
 import CarouselButtons from "components/General/CarouselButtons";
@@ -27,19 +27,33 @@ const testimonials = [
   },
 ];
 
+const EIGHT_SECONDS = 8000;
+
 const Carousel = () => {
   const [step, setStep] = useState(0);
   const { attribution, text } = testimonials[step];
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+
+  const resetInterval = () => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
+
+    intervalRef.current = setInterval(() => {
+      setStep((step) => (step === testimonials.length - 1 ? 0 : step + 1));
+    }, EIGHT_SECONDS);
+  };
 
   useEffect(() => {
-    setInterval(() => {
-      setStep((step) => {
-        if (step === testimonials.length - 1) return 0;
+    resetInterval();
 
-        return step + 1;
-      });
-    }, 8000);
+    return () => {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    };
   }, []);
+
+  const handleButtonClick = (index: number) => {
+    setStep(index);
+    resetInterval();
+  };
 
   return (
     <>
@@ -48,7 +62,7 @@ const Carousel = () => {
         <p>{attribution}</p>
       </blockquote>
 
-      <CarouselButtons step={step} />
+      <CarouselButtons step={step} onClick={handleButtonClick} />
     </>
   );
 };
