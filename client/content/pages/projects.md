@@ -4,6 +4,30 @@ title: "Projects | Alex King"
 
 # **Projects 🗃**
 
+  <div class="project">
+  <div class="project-images">
+    <img src="/projects/desktop/gooselabs.webp" alt="" class="desktop" />
+  </div>
+
+  <div class='project-content'>
+
+## Goose Labs
+
+Goose Labs is a digital playground for self-hosting, automation, and creative technical experiments - from AI workflows and local-first tools to lightweight infrastructure projects.
+
+- Built and host the site on Astro with a home server, accelerated globally through Cloudflare.
+
+- Deployed and maintain a self-hosted automation platform with n8n and Docker.
+
+- Created workflows like network monitoring with Discord alerts and lightweight notification bots.
+
+- Orchestrated home server services with Ubuntu and Coolify, including n8n, Ollama, and Portainer.
+
+<a href='https://gooselabs.tech' target="_blank" rel="noopener noreferrer">Visit Site</a>
+
+  </div>
+</div>
+
 <div class="project">
   <div class="project-images">
     <img src="/projects/desktop/topia.jpg" alt="" class="desktop" />
@@ -15,11 +39,11 @@ title: "Projects | Alex King"
 
 Topia combines playful world-building, encrypted video chat, and easily deployable infrastructure. Bring people together to work, learn, and collaborate in your real-time experience platform.
 
-- 🔠 Led the development of a game-changing, WCAG compliant component library, ensuring seamless and accessible user experiences across multiple products, while maintaining efficient development cycles.
+- Led the development of a game-changing, WCAG compliant component library, ensuring seamless and accessible user experiences across multiple products, while maintaining efficient development cycles.
 
-- ☁️ Played a vital role in architecting and scaling an awe-inspiring browser-based metaverse application, unlocking a world of magic and wonder for users.
+- Played a vital role in architecting and scaling an awe-inspiring browser-based metaverse application, unlocking a world of magic and wonder for users.
 
-- 📧 Developed a feature-rich real-time messaging system, enabling secure and interactive user connectivity and collaboration with direct messaging, group chats, and robust moderation tools.
+- Developed a feature-rich real-time messaging system, enabling secure and interactive user connectivity and collaboration with direct messaging, group chats, and robust moderation tools.
 
 <a href="https://topia.io/" target="_blank" rel="noopener noreferrer">Visit Site</a>
 
@@ -38,13 +62,13 @@ Topia combines playful world-building, encrypted video chat, and easily deployab
 
 BrainSquall combines a mind map, outline, and table to gather, organize, and share complex ideas.
 
-- 📚 Established and maintain engineering guidelines and development workflow, including version control, continuous integration, pipeline config, and code review practices.
+- Established and maintain engineering guidelines and development workflow, including version control, continuous integration, pipeline config, and code review practices.
 
-- 🛠️ Delivered a PostgreSQL version-controlled database with secure production level RESTful API using Node, ensuring data integrity and reliability.
+- Delivered a PostgreSQL version-controlled database with secure production level RESTful API using Node, ensuring data integrity and reliability.
 
-- 🤖 Maintained 80% server and client automated test coverage using Jest and React Testing Library, ensuring the stability and quality of the application.
+- Maintained 80% server and client automated test coverage using Jest and React Testing Library, ensuring the stability and quality of the application.
 
-- 🏗️ Architected and contributed to a rapidly expanding client-side React feature set, implementing modular context state management for enhanced flexibility and scalability.
+- Architected and contributed to a rapidly expanding client-side React feature set, implementing modular context state management for enhanced flexibility and scalability.
 
 <a href="https://www.brainsquall.co/" target="_blank" rel="noopener noreferrer">Visit Site</a>
 
@@ -63,9 +87,9 @@ BrainSquall combines a mind map, outline, and table to gather, organize, and sha
 
 Campr is a camping and backpacking tool for helping adventurers organize gear, plan trips, and inviting friends to collaborate.
 
-- 🚀 Established NextJS/TypeScript serverless graphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
+- Established NextJS/TypeScript serverless graphQL application architecture with an emphasis on expandability and maintainability for a small engineering team.
 
-- 🐳 Implemented a Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
+- Implemented a Docker based CI/CD pipeline with local and cloud automation coverage for seamless development workflow and application stability.
 
 <a href="https://getcampr.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
 

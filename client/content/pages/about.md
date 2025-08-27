@@ -6,7 +6,7 @@ title: "About Me | Alex King"
 
 # **About Me** | Alex King 👋
 
-**Last updated:** April 24, 2023
+**Last updated:** August 27, 2025
 
 ## Location
 
@@ -16,7 +16,7 @@ Raised in Northern Nevada 🌄
 
 Living in Seattle 🌇
 
-Working remotely with <a href="https://topia.io/" target="_blank" rel="noopener noreferrer">Topia</a> 👨‍💻
+Working remotely with <a href="https://solace.health" target="_blank" rel="noopener noreferrer">Solace Health</a> 👨‍💻
 
 ## Services
 
