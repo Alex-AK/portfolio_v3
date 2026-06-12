@@ -49,6 +49,7 @@ Goose Labs is a digital playground for self-hosting, automation, and creative te
 - Orchestrated home server services with Ubuntu and Coolify, including n8n, Ollama, and Portainer.
 
 <a href='https://gooselabs.tech' target="_blank" rel="noopener noreferrer">Visit Site</a>
+<a href='https://github.com/Alex-AK/goose-labs' target="_blank" rel="noopener noreferrer">View Code</a>
 
   </div>
 </div>
