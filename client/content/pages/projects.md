@@ -6,6 +6,31 @@ title: "Projects | Alex King"
 
   <div class="project">
   <div class="project-images">
+    <img src="/projects/desktop/pikos.jpg" alt="" class="desktop" />
+  </div>
+
+  <div class='project-content'>
+
+## Pikos
+
+Pikos brings notes, tasks, and a calendar together in one fast, private desktop app. No account, no cloud. Everything stays on your device.
+
+- Designed and built the whole product, from first sketch to public release.
+
+- Capture in one line: type a task the way you'd say it, and Pikos picks out the date, time, and repeat.
+
+- Built it to work offline. Every interaction is instant, nothing waits on a network.
+
+- No sign-up, no tracking. Your data never leaves your device unless you choose to share it.
+
+<a href='https://pikos.app' target="_blank" rel="noopener noreferrer">Visit Site</a>
+<a href='https://github.com/Pikos-App/pikos' target="_blank" rel="noopener noreferrer">View Code</a>
+
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-images">
     <img src="/projects/desktop/gooselabs.webp" alt="" class="desktop" />
   </div>
 
