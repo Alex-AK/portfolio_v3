@@ -2,11 +2,11 @@
 title: "About Me | Alex King"
 ---
 
-![Alex King Profile Image, Software Engineer](assets/alex-king-software-developer-photo.jpg)
+![Alex King, Software Engineer, with his dachshund on the coast](assets/alex-king-software-engineer-photo.jpg)
 
 # **About Me** | Alex King 👋
 
-**Last updated:** August 27, 2025
+**Last updated:** June 12, 2026
 
 ## Location
 
@@ -17,6 +17,10 @@ Raised in Northern Nevada 🌄
 Living in Seattle 🌇
 
 Working remotely with <a href="https://solace.health" target="_blank" rel="noopener noreferrer">Solace Health</a> 👨‍💻
+
+## Building
+
+I'm building <a href="https://pikos.app" target="_blank" rel="noopener noreferrer">Pikos</a>, a desktop app that brings notes, tasks, and a calendar together in one place. No account, no cloud. Everything stays on your device.
 
 ## Services
 
@@ -36,7 +40,7 @@ As a software engineer, my goal is to help you achieve yours - I'm here to plan,
 
 ## Values
 
-I'm interest in working on building ethical and altruistic products. Here are some values that align with my work.
+I'm interested in working on building ethical and altruistic products. Here are some values that align with my work.
 
 - Mission driven organizations and products
 - Strong communication and transparency
