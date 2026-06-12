@@ -11,20 +11,23 @@
   ],
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet",
     "pretest": "npm run lint"
   },
   "engines": {
-    "node": "16.12.2"
+    "node": ">=20"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
   },
   "dependencies": {
     "date-fns": "^2.15.0",
     "gray-matter": "^4.0.2",
-    "next": "^13.2.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "^15.5.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "rehype-format": "^4.0.1",
     "rehype-raw": "^6.1.1",
     "rehype-stringify": "^9.0.3",
@@ -35,12 +38,11 @@
     "unified": "^10.1.2"
   },
   "devDependencies": {
-    "@types/node": "^16.11.7",
-    "@types/react": "^17.0.34",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
     "@types/styled-components": "^5.1.1",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
-    "babel-plugin-styled-components": "^1.12.0",
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
@@ -48,6 +50,6 @@
     "eslint-plugin-react": "^7.27.0",
     "eslint-plugin-react-hooks": "^4.0.8",
     "prettier": "^2.0.5",
-    "typescript": "^4.4.2"
+    "typescript": "^5.7.0"
   }
 }
